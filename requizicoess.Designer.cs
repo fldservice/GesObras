@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(requizicoess));
             Telerik.WinControls.UI.RadListDataItem radListDataItem1 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem2 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem3 = new Telerik.WinControls.UI.RadListDataItem();
@@ -58,9 +59,9 @@
             Telerik.WinControls.UI.GridViewDecimalColumn gridViewDecimalColumn12 = new Telerik.WinControls.UI.GridViewDecimalColumn();
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
             this.radDropDownList1 = new Telerik.WinControls.UI.RadDropDownList();
-            this.radDateTimePicker2 = new Telerik.WinControls.UI.RadDateTimePicker();
             this.radDateTimePicker1 = new Telerik.WinControls.UI.RadDateTimePicker();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
             this.radButton1 = new Telerik.WinControls.UI.RadButton();
@@ -69,6 +70,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.darEntradaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imprimirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consumidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cancelarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewreqfornBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.splitPanel3 = new Telerik.WinControls.UI.SplitPanel();
@@ -76,16 +78,16 @@
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.actualizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewrequizicaoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.office2010BlackTheme1 = new Telerik.WinControls.Themes.Office2010BlackTheme();
             this.radGridView2 = new Telerik.WinControls.UI.MasterGridViewTemplate();
-            this.consumidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
             this.splitPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radDropDownList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radDateTimePicker2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radDateTimePicker1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
@@ -102,6 +104,7 @@
             this.contextMenuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.viewrequizicaoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
             // radSplitContainer1
@@ -117,7 +120,7 @@
             // 
             // 
             this.radSplitContainer1.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.radSplitContainer1.Size = new System.Drawing.Size(835, 420);
+            this.radSplitContainer1.Size = new System.Drawing.Size(914, 478);
             this.radSplitContainer1.TabIndex = 0;
             this.radSplitContainer1.TabStop = false;
             this.radSplitContainer1.Text = "radSplitContainer1";
@@ -125,9 +128,11 @@
             // 
             // splitPanel1
             // 
+            this.splitPanel1.Controls.Add(this.label1);
+            this.splitPanel1.Controls.Add(this.textBox1);
+            this.splitPanel1.Controls.Add(this.pictureBox1);
             this.splitPanel1.Controls.Add(this.radLabel2);
             this.splitPanel1.Controls.Add(this.radDropDownList1);
-            this.splitPanel1.Controls.Add(this.radDateTimePicker2);
             this.splitPanel1.Controls.Add(this.radDateTimePicker1);
             this.splitPanel1.Controls.Add(this.radLabel1);
             this.splitPanel1.Controls.Add(this.radButton1);
@@ -137,7 +142,7 @@
             // 
             // 
             this.splitPanel1.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel1.Size = new System.Drawing.Size(835, 62);
+            this.splitPanel1.Size = new System.Drawing.Size(914, 71);
             this.splitPanel1.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, -0.1835749F);
             this.splitPanel1.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, -59);
             this.splitPanel1.TabIndex = 0;
@@ -145,9 +150,19 @@
             this.splitPanel1.Text = "splitPanel1";
             this.splitPanel1.ThemeName = "ControlDefault";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(25, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
             // radLabel2
             // 
-            this.radLabel2.Location = new System.Drawing.Point(496, 27);
+            this.radLabel2.Location = new System.Drawing.Point(562, 27);
             this.radLabel2.Name = "radLabel2";
             this.radLabel2.Size = new System.Drawing.Size(40, 18);
             this.radLabel2.TabIndex = 6;
@@ -166,7 +181,7 @@
             this.radDropDownList1.Items.Add(radListDataItem1);
             this.radDropDownList1.Items.Add(radListDataItem2);
             this.radDropDownList1.Items.Add(radListDataItem3);
-            this.radDropDownList1.Location = new System.Drawing.Point(542, 20);
+            this.radDropDownList1.Location = new System.Drawing.Point(608, 20);
             this.radDropDownList1.MaxDropDownItems = 0;
             this.radDropDownList1.Name = "radDropDownList1";
             this.radDropDownList1.ShowImageInEditorArea = true;
@@ -175,29 +190,11 @@
             this.radDropDownList1.ThemeName = "Office2010Black";
             this.radDropDownList1.SelectedIndexChanged += new Telerik.WinControls.UI.Data.PositionChangedEventHandler(this.radDropDownList1_SelectedIndexChanged);
             // 
-            // radDateTimePicker2
-            // 
-            this.radDateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radDateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.radDateTimePicker2.Location = new System.Drawing.Point(327, 18);
-            this.radDateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.radDateTimePicker2.MinDate = new System.DateTime(((long)(0)));
-            this.radDateTimePicker2.Name = "radDateTimePicker2";
-            this.radDateTimePicker2.NullableValue = new System.DateTime(2017, 10, 18, 10, 34, 38, 85);
-            this.radDateTimePicker2.NullDate = new System.DateTime(((long)(0)));
-            this.radDateTimePicker2.Size = new System.Drawing.Size(141, 27);
-            this.radDateTimePicker2.TabIndex = 4;
-            this.radDateTimePicker2.TabStop = false;
-            this.radDateTimePicker2.Text = "quarta-feira, 18 de outubro de 2017";
-            this.radDateTimePicker2.ThemeName = "Office2010Black";
-            this.radDateTimePicker2.Value = new System.DateTime(2017, 10, 18, 10, 34, 38, 85);
-            this.radDateTimePicker2.ValueChanged += new System.EventHandler(this.radDateTimePicker2_ValueChanged);
-            // 
             // radDateTimePicker1
             // 
             this.radDateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.radDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.radDateTimePicker1.Location = new System.Drawing.Point(137, 18);
+            this.radDateTimePicker1.Location = new System.Drawing.Point(211, 21);
             this.radDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.radDateTimePicker1.MinDate = new System.DateTime(((long)(0)));
             this.radDateTimePicker1.Name = "radDateTimePicker1";
@@ -206,7 +203,7 @@
             this.radDateTimePicker1.Size = new System.Drawing.Size(142, 27);
             this.radDateTimePicker1.TabIndex = 4;
             this.radDateTimePicker1.TabStop = false;
-            this.radDateTimePicker1.Text = "quarta-feira, 18 de outubro de 2017";
+            this.radDateTimePicker1.Text = "18 de outubro de 2017";
             this.radDateTimePicker1.ThemeName = "Office2010Black";
             this.radDateTimePicker1.Value = new System.DateTime(2017, 10, 18, 10, 34, 38, 85);
             this.radDateTimePicker1.ValueChanged += new System.EventHandler(this.radDateTimePicker1_ValueChanged);
@@ -214,7 +211,7 @@
             // radLabel1
             // 
             this.radLabel1.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.radLabel1.Location = new System.Drawing.Point(7, 16);
+            this.radLabel1.Location = new System.Drawing.Point(81, 19);
             this.radLabel1.Name = "radLabel1";
             this.radLabel1.Size = new System.Drawing.Size(123, 33);
             this.radLabel1.TabIndex = 3;
@@ -225,25 +222,25 @@
             this.radButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.radButton1.Image = global::GesObras.Properties.Resources.plus_32px;
-            this.radButton1.Location = new System.Drawing.Point(693, 7);
+            this.radButton1.Location = new System.Drawing.Point(772, 7);
             this.radButton1.Name = "radButton1";
             this.radButton1.Size = new System.Drawing.Size(130, 49);
             this.radButton1.TabIndex = 2;
             this.radButton1.Text = "Nova";
-            this.radButton1.ThemeName = "Office2010Black";
+            this.radButton1.ThemeName = "Office2010Silver";
             this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // splitPanel2
             // 
             this.splitPanel2.AutoScroll = true;
             this.splitPanel2.Controls.Add(this.radGridView1);
-            this.splitPanel2.Location = new System.Drawing.Point(0, 65);
+            this.splitPanel2.Location = new System.Drawing.Point(0, 74);
             this.splitPanel2.Name = "splitPanel2";
             // 
             // 
             // 
             this.splitPanel2.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel2.Size = new System.Drawing.Size(835, 191);
+            this.splitPanel2.Size = new System.Drawing.Size(914, 218);
             this.splitPanel2.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, 0.1280193F);
             this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, 40);
             this.splitPanel2.TabIndex = 1;
@@ -264,6 +261,7 @@
             gridViewDecimalColumn1.FieldName = "idrequisica";
             gridViewDecimalColumn1.HeaderText = "N. Req";
             gridViewDecimalColumn1.IsAutoGenerated = true;
+            gridViewDecimalColumn1.IsVisible = false;
             gridViewDecimalColumn1.Name = "idrequisica";
             gridViewTextBoxColumn1.FieldName = "Nome";
             gridViewTextBoxColumn1.HeaderText = "Nome";
@@ -329,10 +327,10 @@
             this.radGridView1.MasterTemplate.DataSource = this.viewreqfornBindingSource;
             this.radGridView1.Name = "radGridView1";
             this.radGridView1.ReadOnly = true;
-            this.radGridView1.Size = new System.Drawing.Size(835, 191);
+            this.radGridView1.Size = new System.Drawing.Size(914, 218);
             this.radGridView1.TabIndex = 0;
             this.radGridView1.Text = "radGridView1";
-            this.radGridView1.ThemeName = "Office2010Black";
+            this.radGridView1.ThemeName = "Office2010Silver";
             this.radGridView1.Click += new System.EventHandler(this.radGridView1_Click);
             // 
             // contextMenuStrip1
@@ -343,14 +341,14 @@
             this.consumidoToolStripMenuItem,
             this.cancelarToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 114);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(137, 92);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // darEntradaToolStripMenuItem
             // 
             this.darEntradaToolStripMenuItem.Image = global::GesObras.Properties.Resources.checkout_50px_1;
             this.darEntradaToolStripMenuItem.Name = "darEntradaToolStripMenuItem";
-            this.darEntradaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.darEntradaToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.darEntradaToolStripMenuItem.Text = "Dar entrada";
             this.darEntradaToolStripMenuItem.Click += new System.EventHandler(this.darEntradaToolStripMenuItem_Click);
             // 
@@ -358,15 +356,23 @@
             // 
             this.imprimirToolStripMenuItem.Image = global::GesObras.Properties.Resources.print_75px;
             this.imprimirToolStripMenuItem.Name = "imprimirToolStripMenuItem";
-            this.imprimirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.imprimirToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.imprimirToolStripMenuItem.Text = "Imprimir";
             this.imprimirToolStripMenuItem.Click += new System.EventHandler(this.imprimirToolStripMenuItem_Click);
+            // 
+            // consumidoToolStripMenuItem
+            // 
+            this.consumidoToolStripMenuItem.Image = global::GesObras.Properties.Resources.checkmark_32px;
+            this.consumidoToolStripMenuItem.Name = "consumidoToolStripMenuItem";
+            this.consumidoToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.consumidoToolStripMenuItem.Text = "Consumido";
+            this.consumidoToolStripMenuItem.Click += new System.EventHandler(this.consumidoToolStripMenuItem_Click);
             // 
             // cancelarToolStripMenuItem
             // 
             this.cancelarToolStripMenuItem.Image = global::GesObras.Properties.Resources.delete_sign_75px;
             this.cancelarToolStripMenuItem.Name = "cancelarToolStripMenuItem";
-            this.cancelarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cancelarToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.cancelarToolStripMenuItem.Text = "Cancelar";
             this.cancelarToolStripMenuItem.Click += new System.EventHandler(this.cancelarToolStripMenuItem_Click);
             // 
@@ -378,13 +384,13 @@
             // 
             this.splitPanel3.AutoScroll = true;
             this.splitPanel3.Controls.Add(this.radGridView3);
-            this.splitPanel3.Location = new System.Drawing.Point(0, 259);
+            this.splitPanel3.Location = new System.Drawing.Point(0, 295);
             this.splitPanel3.Name = "splitPanel3";
             // 
             // 
             // 
             this.splitPanel3.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel3.Size = new System.Drawing.Size(835, 161);
+            this.splitPanel3.Size = new System.Drawing.Size(914, 183);
             this.splitPanel3.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, 0.05555554F);
             this.splitPanel3.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, 19);
             this.splitPanel3.TabIndex = 2;
@@ -429,13 +435,13 @@
             gridViewTextBoxColumn7.HeaderText = "M";
             gridViewTextBoxColumn7.IsAutoGenerated = true;
             gridViewTextBoxColumn7.Name = "tamanhos_pro";
-            gridViewDecimalColumn7.DataType = typeof(System.Nullable<int>);
+            gridViewDecimalColumn7.DataType = typeof(System.Nullable<decimal>);
             gridViewDecimalColumn7.FieldName = "qty";
             gridViewDecimalColumn7.FormatString = "";
             gridViewDecimalColumn7.HeaderText = "qty";
             gridViewDecimalColumn7.IsAutoGenerated = true;
             gridViewDecimalColumn7.Name = "qty";
-            gridViewDecimalColumn8.DataType = typeof(System.Nullable<int>);
+            gridViewDecimalColumn8.DataType = typeof(System.Nullable<decimal>);
             gridViewDecimalColumn8.FieldName = "qtyreceb";
             gridViewDecimalColumn8.FormatString = "";
             gridViewDecimalColumn8.HeaderText = "qtyreceb";
@@ -465,7 +471,7 @@
             this.radGridView3.MasterTemplate.DataSource = this.viewrequizicaoBindingSource;
             this.radGridView3.Name = "radGridView3";
             this.radGridView3.ReadOnly = true;
-            this.radGridView3.Size = new System.Drawing.Size(835, 161);
+            this.radGridView3.Size = new System.Drawing.Size(914, 183);
             this.radGridView3.TabIndex = 0;
             this.radGridView3.Text = "radGridView3";
             this.radGridView3.ThemeName = "Office2010Black";
@@ -522,31 +528,47 @@
             gridViewDecimalColumn11,
             gridViewDecimalColumn12});
             // 
-            // consumidoToolStripMenuItem
+            // textBox1
             // 
-            this.consumidoToolStripMenuItem.Image = global::GesObras.Properties.Resources.checkmark_32px;
-            this.consumidoToolStripMenuItem.Name = "consumidoToolStripMenuItem";
-            this.consumidoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.consumidoToolStripMenuItem.Text = "Consumido";
-            this.consumidoToolStripMenuItem.Click += new System.EventHandler(this.consumidoToolStripMenuItem_Click);
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.textBox1.Location = new System.Drawing.Point(359, 24);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(144, 25);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(359, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Nfatura";
             // 
             // requizicoess
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(835, 420);
+            this.ClientSize = new System.Drawing.Size(914, 478);
             this.Controls.Add(this.radSplitContainer1);
             this.Name = "requizicoess";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
+            this.ShowIcon = false;
             this.Text = "requizicoess";
+            this.ThemeName = "Office2010Silver";
             this.Load += new System.EventHandler(this.requizicoess_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).EndInit();
             this.radSplitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
             this.splitPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radDropDownList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radDateTimePicker2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radDateTimePicker1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
@@ -563,6 +585,7 @@
             this.contextMenuStrip2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.viewrequizicaoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -574,10 +597,9 @@
         private Telerik.WinControls.UI.SplitPanel splitPanel2;
         private Telerik.WinControls.UI.RadGridView radGridView1;
         private Telerik.WinControls.UI.SplitPanel splitPanel3;
-        private Telerik.WinControls.Themes.Office2010BlackTheme office2010BlackTheme1;
+       // private Telerik.WinControls.Themes.Office2010BlackTheme office2010BlackTheme1;
         private Telerik.WinControls.UI.RadButton radButton1;
         private Telerik.WinControls.UI.RadLabel radLabel1;
-        private Telerik.WinControls.UI.RadDateTimePicker radDateTimePicker2;
         private Telerik.WinControls.UI.RadDateTimePicker radDateTimePicker1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem imprimirToolStripMenuItem;
@@ -592,5 +614,8 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.ToolStripMenuItem actualizarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consumidoToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

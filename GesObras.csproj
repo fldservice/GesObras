@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GesObras</RootNamespace>
     <AssemblyName>GesObras</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Ap Ges logo.ico</ApplicationIcon>
+    <ApplicationIcon>Home.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -44,12 +45,34 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FoxLearn.License">
+      <HintPath>F:\venda\Gescom\FoxLearn.License.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\Users\P.Laisson\Documents\Visual Studio 2015\Projects\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\gescom jhoncortez\Gescom\bin\Debug\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\gescom jhoncortez\Gescom\bin\Debug\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.Services" />
@@ -65,11 +88,15 @@
     <Reference Include="Telerik.WinControls, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
     <Reference Include="Telerik.WinControls.GridView, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.RichTextBox, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
-    <Reference Include="Telerik.WinControls.Themes.Office2010Black, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Silver, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.Themes.TelerikMetroBlue, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Windows7, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.UI, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="TelerikCommon, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Tulpep.NotificationWindow">
+      <HintPath>..\..\gescom jhoncortez\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutBox1.cs">
@@ -121,6 +148,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddservicObras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddservicObras.Designer.cs">
+      <DependentUpon>frmAddservicObras.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmescritorioas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +166,13 @@
     <Compile Include="frmfornecidore.Designer.cs">
       <DependentUpon>frmfornecidore.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_updaeDetalhes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_updaeDetalhes.Designer.cs">
+      <DependentUpon>frm_updaeDetalhes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hardworker.cs" />
     <Compile Include="lisObras.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +205,30 @@
     <Compile Include="receberpro.Designer.cs">
       <DependentUpon>receberpro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Registo\form_registo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registo\form_registo.Designer.cs">
+      <DependentUpon>form_registo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registo\frm_criasenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registo\frm_criasenha.Designer.cs">
+      <DependentUpon>frm_criasenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registo\frm_detalhes_registo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registo\frm_detalhes_registo.Designer.cs">
+      <DependentUpon>frm_detalhes_registo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registo\frm_gerar_senhas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registo\frm_gerar_senhas.Designer.cs">
+      <DependentUpon>frm_gerar_senhas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Requiform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,6 +240,18 @@
     </Compile>
     <Compile Include="requizicoess.Designer.cs">
       <DependentUpon>requizicoess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="splashBog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splashBog.Designer.cs">
+      <DependentUpon>splashBog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uploadProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uploadProdutos.Designer.cs">
+      <DependentUpon>uploadProdutos.cs</DependentUpon>
     </Compile>
     <Compile Include="userfom.cs">
       <SubType>Form</SubType>
@@ -220,11 +296,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAddservicObras.resx">
+      <DependentUpon>frmAddservicObras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmescritorioas.resx">
       <DependentUpon>frmescritorioas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmfornecidore.resx">
       <DependentUpon>frmfornecidore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_updaeDetalhes.resx">
+      <DependentUpon>frm_updaeDetalhes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lisObras.resx">
       <DependentUpon>lisObras.cs</DependentUpon>
@@ -251,12 +333,32 @@
     <EmbeddedResource Include="receberpro.resx">
       <DependentUpon>receberpro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Registo\form_registo.resx">
+      <DependentUpon>form_registo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registo\frm_criasenha.resx">
+      <DependentUpon>frm_criasenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registo\frm_detalhes_registo.resx">
+      <DependentUpon>frm_detalhes_registo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registo\frm_gerar_senhas.resx">
+      <DependentUpon>frm_gerar_senhas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="RepTOTACOMPRAS.rdlc" />
     <EmbeddedResource Include="Requiform.resx">
       <DependentUpon>Requiform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="requizicoess.resx">
       <DependentUpon>requizicoess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splashBog.resx">
+      <DependentUpon>splashBog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uploadProdutos.resx">
+      <DependentUpon>uploadProdutos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userfom.resx">
       <DependentUpon>userfom.cs</DependentUpon>
@@ -270,40 +372,28 @@
     <None Include="packages.config" />
     <None Include="Properties\DataSources\dbges.categoria.datasource" />
     <None Include="Properties\DataSources\dbges.Clientes.datasource" />
-    <None Include="Properties\DataSources\dbges.Consumiveis.datasource" />
-    <None Include="Properties\DataSources\dbges.Ctegoriasfunc.datasource" />
     <None Include="Properties\DataSources\dbges.detalhesdobra.datasource" />
-    <None Include="Properties\DataSources\dbges.Dia.datasource" />
     <None Include="Properties\DataSources\dbges.empresa.datasource" />
     <None Include="Properties\DataSources\dbges.entradas.datasource" />
     <None Include="Properties\DataSources\dbges.fornecedor.datasource" />
-    <None Include="Properties\DataSources\dbges.funcionarioporObras.datasource" />
-    <None Include="Properties\DataSources\dbges.Funcionarios.datasource" />
-    <None Include="Properties\DataSources\dbges.horatrabalhadores.datasource" />
-    <None Include="Properties\DataSources\dbges.horatracalculadas.datasource" />
     <None Include="Properties\DataSources\dbges.lisobrasclient.datasource" />
     <None Include="Properties\DataSources\dbges.lisproduto.datasource" />
-    <None Include="Properties\DataSources\dbges.Listpresencas.datasource" />
     <None Include="Properties\DataSources\dbges.Obrass.datasource" />
-    <None Include="Properties\DataSources\dbges.operairos.datasource" />
-    <None Include="Properties\DataSources\dbges.Operarioestado.datasource" />
-    <None Include="Properties\DataSources\dbges.presensas.datasource" />
-    <None Include="Properties\DataSources\dbges.presentes.datasource" />
+    <None Include="Properties\DataSources\dbges.Precos_pro.datasource" />
     <None Include="Properties\DataSources\dbges.produtos.datasource" />
     <None Include="Properties\DataSources\dbges.project.datasource" />
     <None Include="Properties\DataSources\dbges.requizicao.datasource" />
+    <None Include="Properties\DataSources\dbges.Servicos.datasource" />
     <None Include="Properties\DataSources\dbges.tamanhos.datasource" />
     <None Include="Properties\DataSources\dbges.tblhoras.datasource" />
     <None Include="Properties\DataSources\dbges.teteenginhierEntities.datasource" />
     <None Include="Properties\DataSources\dbges.todashoras.datasource" />
     <None Include="Properties\DataSources\dbges.utilizadores.datasource" />
-    <None Include="Properties\DataSources\dbges.valobrasreport.datasource" />
     <None Include="Properties\DataSources\dbges.valorporobras.datasource" />
     <None Include="Properties\DataSources\dbges.veiwobras.datasource" />
-    <None Include="Properties\DataSources\dbges.vercomprass_Result.datasource" />
     <None Include="Properties\DataSources\dbges.verhorasevalores.datasource" />
     <None Include="Properties\DataSources\dbges.viewdetlahesaisfas.datasource" />
-    <None Include="Properties\DataSources\dbges.viewHoraportrabalnaObra.datasource" />
+    <None Include="Properties\DataSources\dbges.Viewprodbymonth.datasource" />
     <None Include="Properties\DataSources\dbges.viewprodDetalhes.datasource" />
     <None Include="Properties\DataSources\dbges.viewrequizicao.datasource" />
     <None Include="Properties\DataSources\dbges.View_compras.datasource" />
@@ -319,16 +409,30 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\dbges\dbges.csproj">
       <Project>{a6eff63f-5520-4a5d-bfc5-12760a5b564b}</Project>
       <Name>dbges</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GesHonorario\GesHonorario.csproj">
+      <Project>{e8cdb83a-d109-495f-a8c9-5f4c1d628fd3}</Project>
+      <Name>GesHonorario</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\gesInvent\gesInvent.csproj">
+      <Project>{8223a0e4-e703-4e43-9f4b-70bd36415de5}</Project>
+      <Name>gesInvent</Name>
+    </ProjectReference>
     <ProjectReference Include="..\gesreport\gesreport.csproj">
       <Project>{bb6a4a23-c060-46b6-8b2a-f3a6aa0c0ce2}</Project>
       <Name>gesreport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sisfince\sisfince.csproj">
+      <Project>{090387b3-4e9e-44f4-ac1f-1fca4dd100df}</Project>
+      <Name>sisfince</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -387,6 +491,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ap Ges logo.ico" />
+    <Content Include="Home.ico" />
+    <None Include="Resources\checked_checkbox_32px.png" />
+    <None Include="Resources\math_32px.png" />
     <None Include="Resources\report_card_50px.png" />
     <None Include="Resources\collaborator_male_75px.png" />
     <None Include="Resources\downloads_folder_50px.png" />

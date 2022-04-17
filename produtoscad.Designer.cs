@@ -29,13 +29,16 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Label aReaLabel;
             System.Windows.Forms.Label codprodutoLabel;
             System.Windows.Forms.Label idcategoriaLabel;
             System.Windows.Forms.Label idtamanhosLabel;
             System.Windows.Forms.Label precosLabel;
             System.Windows.Forms.Label produtos1Label;
             System.Windows.Forms.Label quatidadeLabel;
+            System.Windows.Forms.Label label1;
+            System.Windows.Forms.Label label2;
+            System.Windows.Forms.Label label3;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(produtoscad));
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
@@ -46,7 +49,11 @@
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.radSplitContainer2 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel3 = new Telerik.WinControls.UI.SplitPanel();
-            this.aReaTextBox = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textlargura = new System.Windows.Forms.TextBox();
+            this.textcomprim = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.radButton5 = new Telerik.WinControls.UI.RadButton();
             this.radButton1 = new Telerik.WinControls.UI.RadButton();
             this.radButton3 = new Telerik.WinControls.UI.RadButton();
@@ -66,10 +73,6 @@
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
             this.splitPanel6 = new Telerik.WinControls.UI.SplitPanel();
             this.lisprodutoDataGridView = new System.Windows.Forms.DataGridView();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.elininarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.produtosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.telerikMetroTheme1 = new Telerik.WinControls.Themes.TelerikMetroTheme();
             this.idprodutosDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.proCategoriasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.codprodutoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -77,18 +80,39 @@
             this.tamanhosproDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idcategoriaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descricaoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.quatidadeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.prexo_venda = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comprimet = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.largura = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aReaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.precosDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prexototalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            aReaLabel = new System.Windows.Forms.Label();
+            this.kilosingle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.elininarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.splitPanel7 = new Telerik.WinControls.UI.SplitPanel();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.radLabel3 = new Telerik.WinControls.UI.RadLabel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.idprecoProDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qtyproDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.precoproDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.areatotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Kilogramas = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Observacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.precosproBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.produtosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.telerikMetroTheme1 = new Telerik.WinControls.Themes.TelerikMetroTheme();
+            this.office2010SilverTheme1 = new Telerik.WinControls.Themes.Office2010SilverTheme();
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.actualizarQtyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             codprodutoLabel = new System.Windows.Forms.Label();
             idcategoriaLabel = new System.Windows.Forms.Label();
             idtamanhosLabel = new System.Windows.Forms.Label();
             precosLabel = new System.Windows.Forms.Label();
             produtos1Label = new System.Windows.Forms.Label();
             quatidadeLabel = new System.Windows.Forms.Label();
+            label1 = new System.Windows.Forms.Label();
+            label2 = new System.Windows.Forms.Label();
+            label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
@@ -103,6 +127,8 @@
             this.radSplitContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel3)).BeginInit();
             this.splitPanel3.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton3)).BeginInit();
@@ -120,17 +146,19 @@
             this.splitPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lisprodutoDataGridView)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitPanel7)).BeginInit();
+            this.splitPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.precosproBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtosBindingSource)).BeginInit();
+            this.contextMenuStrip2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
-            // 
-            // aReaLabel
-            // 
-            aReaLabel.AutoSize = true;
-            aReaLabel.Location = new System.Drawing.Point(20, 220);
-            aReaLabel.Name = "aReaLabel";
-            aReaLabel.Size = new System.Drawing.Size(40, 19);
-            aReaLabel.TabIndex = 0;
-            aReaLabel.Text = "Area:";
             // 
             // codprodutoLabel
             // 
@@ -162,7 +190,7 @@
             // precosLabel
             // 
             precosLabel.AutoSize = true;
-            precosLabel.Location = new System.Drawing.Point(20, 190);
+            precosLabel.Location = new System.Drawing.Point(20, 193);
             precosLabel.Name = "precosLabel";
             precosLabel.Size = new System.Drawing.Size(94, 19);
             precosLabel.TabIndex = 14;
@@ -180,11 +208,38 @@
             // quatidadeLabel
             // 
             quatidadeLabel.AutoSize = true;
-            quatidadeLabel.Location = new System.Drawing.Point(20, 159);
+            quatidadeLabel.Location = new System.Drawing.Point(20, 162);
             quatidadeLabel.Name = "quatidadeLabel";
             quatidadeLabel.Size = new System.Drawing.Size(76, 19);
             quatidadeLabel.TabIndex = 20;
             quatidadeLabel.Text = "Quatidade:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(6, 15);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(94, 19);
+            label1.TabIndex = 0;
+            label1.Text = "Comprimento";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new System.Drawing.Point(138, 18);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(56, 19);
+            label2.TabIndex = 0;
+            label2.Text = "Largura";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new System.Drawing.Point(120, 45);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(17, 19);
+            label3.TabIndex = 0;
+            label3.Text = "X";
             // 
             // radSplitContainer1
             // 
@@ -198,7 +253,7 @@
             // 
             // 
             this.radSplitContainer1.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.radSplitContainer1.Size = new System.Drawing.Size(799, 380);
+            this.radSplitContainer1.Size = new System.Drawing.Size(968, 510);
             this.radSplitContainer1.TabIndex = 0;
             this.radSplitContainer1.TabStop = false;
             this.radSplitContainer1.Text = "radSplitContainer1";
@@ -215,9 +270,9 @@
             // 
             // 
             this.splitPanel1.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel1.Size = new System.Drawing.Size(799, 57);
-            this.splitPanel1.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, -0.3497268F);
-            this.splitPanel1.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, -104);
+            this.splitPanel1.Size = new System.Drawing.Size(968, 55);
+            this.splitPanel1.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, -0.3915187F);
+            this.splitPanel1.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, -125);
             this.splitPanel1.TabIndex = 0;
             this.splitPanel1.TabStop = false;
             this.splitPanel1.Text = "splitPanel1";
@@ -245,11 +300,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::GesObras.Properties.Resources.product_75px;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(62, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
@@ -258,26 +313,26 @@
             this.radButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radButton4.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.radButton4.Image = global::GesObras.Properties.Resources.fine_print_32px_1;
-            this.radButton4.Location = new System.Drawing.Point(648, 12);
+            this.radButton4.Location = new System.Drawing.Point(817, 12);
             this.radButton4.Name = "radButton4";
             this.radButton4.Size = new System.Drawing.Size(139, 35);
             this.radButton4.TabIndex = 1;
             this.radButton4.Text = "Preview";
-            this.radButton4.ThemeName = "ControlDefault";
+            this.radButton4.ThemeName = "Office2010Silver";
             this.radButton4.Click += new System.EventHandler(this.radButton4_Click);
             // 
             // splitPanel2
             // 
             this.splitPanel2.Controls.Add(this.radSplitContainer2);
-            this.splitPanel2.Location = new System.Drawing.Point(0, 60);
+            this.splitPanel2.Location = new System.Drawing.Point(0, 58);
             this.splitPanel2.Name = "splitPanel2";
             // 
             // 
             // 
             this.splitPanel2.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel2.Size = new System.Drawing.Size(799, 320);
-            this.splitPanel2.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, 0.3497268F);
-            this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, 104);
+            this.splitPanel2.Size = new System.Drawing.Size(968, 452);
+            this.splitPanel2.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, 0.3915187F);
+            this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, 125);
             this.splitPanel2.TabIndex = 1;
             this.splitPanel2.TabStop = false;
             this.splitPanel2.Text = "splitPanel2";
@@ -286,6 +341,7 @@
             // 
             this.radSplitContainer2.Controls.Add(this.splitPanel3);
             this.radSplitContainer2.Controls.Add(this.splitPanel4);
+            this.radSplitContainer2.Controls.Add(this.splitPanel7);
             this.radSplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radSplitContainer2.Location = new System.Drawing.Point(0, 0);
             this.radSplitContainer2.Name = "radSplitContainer2";
@@ -293,7 +349,7 @@
             // 
             // 
             this.radSplitContainer2.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.radSplitContainer2.Size = new System.Drawing.Size(799, 320);
+            this.radSplitContainer2.Size = new System.Drawing.Size(968, 452);
             this.radSplitContainer2.TabIndex = 0;
             this.radSplitContainer2.TabStop = false;
             this.radSplitContainer2.Text = "radSplitContainer2";
@@ -301,12 +357,13 @@
             // splitPanel3
             // 
             this.splitPanel3.AutoScroll = true;
-            this.splitPanel3.Controls.Add(this.aReaTextBox);
+            this.splitPanel3.Controls.Add(this.checkBox1);
+            this.splitPanel3.Controls.Add(this.groupBox1);
+            this.splitPanel3.Controls.Add(this.pictureBox2);
             this.splitPanel3.Controls.Add(this.radButton5);
             this.splitPanel3.Controls.Add(this.radButton1);
             this.splitPanel3.Controls.Add(this.radButton3);
             this.splitPanel3.Controls.Add(this.radButton2);
-            this.splitPanel3.Controls.Add(aReaLabel);
             this.splitPanel3.Controls.Add(codprodutoLabel);
             this.splitPanel3.Controls.Add(this.textBox1);
             this.splitPanel3.Controls.Add(this.codprodutoTextBox);
@@ -327,24 +384,66 @@
             // 
             // 
             this.splitPanel3.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel3.Size = new System.Drawing.Size(328, 320);
-            this.splitPanel3.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(-0.08793971F, 0F);
-            this.splitPanel3.SizeInfo.SplitterCorrection = new System.Drawing.Size(-70, 0);
+            this.splitPanel3.Size = new System.Drawing.Size(309, 452);
+            this.splitPanel3.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(-0.01212752F, 0F);
+            this.splitPanel3.SizeInfo.SplitterCorrection = new System.Drawing.Size(3, 0);
             this.splitPanel3.TabIndex = 0;
             this.splitPanel3.TabStop = false;
             this.splitPanel3.Text = "splitPanel3";
             // 
-            // aReaTextBox
+            // checkBox1
             // 
-            this.aReaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.lisprodutoBindingSource, "aRea", true));
-            this.aReaTextBox.Location = new System.Drawing.Point(131, 217);
-            this.aReaTextBox.Name = "aReaTextBox";
-            this.aReaTextBox.Size = new System.Drawing.Size(121, 20);
-            this.aReaTextBox.TabIndex = 30;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(18, 219);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(56, 23);
+            this.checkBox1.TabIndex = 33;
+            this.checkBox1.Text = "Area";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.textlargura);
+            this.groupBox1.Controls.Add(this.textcomprim);
+            this.groupBox1.Controls.Add(label3);
+            this.groupBox1.Controls.Add(label2);
+            this.groupBox1.Controls.Add(label1);
+            this.groupBox1.Location = new System.Drawing.Point(12, 228);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(293, 85);
+            this.groupBox1.TabIndex = 32;
+            this.groupBox1.TabStop = false;
+            // 
+            // textlargura
+            // 
+            this.textlargura.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.lisprodutoBindingSource, "largura", true));
+            this.textlargura.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.textlargura.Location = new System.Drawing.Point(142, 40);
+            this.textlargura.Name = "textlargura";
+            this.textlargura.Size = new System.Drawing.Size(136, 29);
+            this.textlargura.TabIndex = 30;
+            // 
+            // textcomprim
+            // 
+            this.textcomprim.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.lisprodutoBindingSource, "comprimet", true));
+            this.textcomprim.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.textcomprim.Location = new System.Drawing.Point(6, 40);
+            this.textcomprim.Name = "textcomprim";
+            this.textcomprim.Size = new System.Drawing.Size(107, 29);
+            this.textcomprim.TabIndex = 30;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(3, 399);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(278, 50);
+            this.pictureBox2.TabIndex = 31;
+            this.pictureBox2.TabStop = false;
             // 
             // radButton5
             // 
-            this.radButton5.Image = global::GesObras.Properties.Resources.add_file_32px;
+            this.radButton5.Image = ((System.Drawing.Image)(resources.GetObject("radButton5.Image")));
             this.radButton5.Location = new System.Drawing.Point(258, 30);
             this.radButton5.Name = "radButton5";
             this.radButton5.Size = new System.Drawing.Size(32, 29);
@@ -355,9 +454,10 @@
             // radButton1
             // 
             this.radButton1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.radButton1.Location = new System.Drawing.Point(12, 263);
+            this.radButton1.Image = ((System.Drawing.Image)(resources.GetObject("radButton1.Image")));
+            this.radButton1.Location = new System.Drawing.Point(5, 332);
             this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(92, 41);
+            this.radButton1.Size = new System.Drawing.Size(93, 41);
             this.radButton1.TabIndex = 28;
             this.radButton1.Text = "Novo";
             this.radButton1.ThemeName = "TelerikMetro";
@@ -366,9 +466,10 @@
             // radButton3
             // 
             this.radButton3.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.radButton3.Location = new System.Drawing.Point(208, 263);
+            this.radButton3.Image = ((System.Drawing.Image)(resources.GetObject("radButton3.Image")));
+            this.radButton3.Location = new System.Drawing.Point(201, 332);
             this.radButton3.Name = "radButton3";
-            this.radButton3.Size = new System.Drawing.Size(92, 41);
+            this.radButton3.Size = new System.Drawing.Size(84, 41);
             this.radButton3.TabIndex = 28;
             this.radButton3.Text = "Actualizar";
             this.radButton3.ThemeName = "TelerikMetro";
@@ -378,7 +479,7 @@
             // 
             this.radButton2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.radButton2.Image = global::GesObras.Properties.Resources.save_archive_32px;
-            this.radButton2.Location = new System.Drawing.Point(110, 263);
+            this.radButton2.Location = new System.Drawing.Point(103, 332);
             this.radButton2.Name = "radButton2";
             this.radButton2.Size = new System.Drawing.Size(92, 41);
             this.radButton2.TabIndex = 28;
@@ -400,7 +501,7 @@
             this.codprodutoTextBox.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.codprodutoTextBox.Location = new System.Drawing.Point(131, 92);
             this.codprodutoTextBox.Name = "codprodutoTextBox";
-            this.codprodutoTextBox.Size = new System.Drawing.Size(121, 27);
+            this.codprodutoTextBox.Size = new System.Drawing.Size(159, 27);
             this.codprodutoTextBox.TabIndex = 5;
             // 
             // idcategoriaComboBox
@@ -436,16 +537,16 @@
             "\""});
             this.idtamanhosComboBox.Location = new System.Drawing.Point(201, 62);
             this.idtamanhosComboBox.Name = "idtamanhosComboBox";
-            this.idtamanhosComboBox.Size = new System.Drawing.Size(51, 28);
+            this.idtamanhosComboBox.Size = new System.Drawing.Size(89, 28);
             this.idtamanhosComboBox.TabIndex = 13;
             // 
             // precosTextBox
             // 
             this.precosTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.lisprodutoBindingSource, "prexo_venda", true));
             this.precosTextBox.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.precosTextBox.Location = new System.Drawing.Point(131, 182);
+            this.precosTextBox.Location = new System.Drawing.Point(131, 185);
             this.precosTextBox.Name = "precosTextBox";
-            this.precosTextBox.Size = new System.Drawing.Size(121, 27);
+            this.precosTextBox.Size = new System.Drawing.Size(159, 27);
             this.precosTextBox.TabIndex = 15;
             this.precosTextBox.Text = "0";
             // 
@@ -455,15 +556,15 @@
             this.produtos1TextBox.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.produtos1TextBox.Location = new System.Drawing.Point(131, 122);
             this.produtos1TextBox.Name = "produtos1TextBox";
-            this.produtos1TextBox.Size = new System.Drawing.Size(121, 27);
+            this.produtos1TextBox.Size = new System.Drawing.Size(159, 27);
             this.produtos1TextBox.TabIndex = 19;
             // 
             // quatidadeTextBox
             // 
             this.quatidadeTextBox.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.quatidadeTextBox.Location = new System.Drawing.Point(131, 151);
+            this.quatidadeTextBox.Location = new System.Drawing.Point(131, 154);
             this.quatidadeTextBox.Name = "quatidadeTextBox";
-            this.quatidadeTextBox.Size = new System.Drawing.Size(121, 27);
+            this.quatidadeTextBox.Size = new System.Drawing.Size(159, 27);
             this.quatidadeTextBox.TabIndex = 21;
             this.quatidadeTextBox.Text = "0";
             // 
@@ -471,15 +572,15 @@
             // 
             this.splitPanel4.Controls.Add(this.radSplitContainer3);
             this.splitPanel4.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.splitPanel4.Location = new System.Drawing.Point(331, 0);
+            this.splitPanel4.Location = new System.Drawing.Point(312, 0);
             this.splitPanel4.Name = "splitPanel4";
             // 
             // 
             // 
             this.splitPanel4.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel4.Size = new System.Drawing.Size(468, 320);
-            this.splitPanel4.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0.08793968F, 0F);
-            this.splitPanel4.SizeInfo.SplitterCorrection = new System.Drawing.Size(70, 0);
+            this.splitPanel4.Size = new System.Drawing.Size(410, 452);
+            this.splitPanel4.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0.09286207F, 0F);
+            this.splitPanel4.SizeInfo.SplitterCorrection = new System.Drawing.Size(76, 0);
             this.splitPanel4.TabIndex = 1;
             this.splitPanel4.TabStop = false;
             this.splitPanel4.Text = "splitPanel4";
@@ -496,7 +597,7 @@
             // 
             // 
             this.radSplitContainer3.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.radSplitContainer3.Size = new System.Drawing.Size(468, 320);
+            this.radSplitContainer3.Size = new System.Drawing.Size(410, 452);
             this.radSplitContainer3.TabIndex = 0;
             this.radSplitContainer3.TabStop = false;
             this.radSplitContainer3.Text = "radSplitContainer3";
@@ -513,7 +614,7 @@
             // 
             // 
             this.splitPanel5.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel5.Size = new System.Drawing.Size(468, 40);
+            this.splitPanel5.Size = new System.Drawing.Size(410, 56);
             this.splitPanel5.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, -0.3746356F);
             this.splitPanel5.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, -129);
             this.splitPanel5.TabIndex = 0;
@@ -525,7 +626,7 @@
             this.radTextBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.radTextBox1.Location = new System.Drawing.Point(186, 7);
             this.radTextBox1.Name = "radTextBox1";
-            this.radTextBox1.Size = new System.Drawing.Size(273, 27);
+            this.radTextBox1.Size = new System.Drawing.Size(194, 27);
             this.radTextBox1.TabIndex = 0;
             this.radTextBox1.TabStop = false;
             this.radTextBox1.TextChanged += new System.EventHandler(this.radTextBox1_TextChanged);
@@ -542,13 +643,13 @@
             // splitPanel6
             // 
             this.splitPanel6.Controls.Add(this.lisprodutoDataGridView);
-            this.splitPanel6.Location = new System.Drawing.Point(0, 43);
+            this.splitPanel6.Location = new System.Drawing.Point(0, 59);
             this.splitPanel6.Name = "splitPanel6";
             // 
             // 
             // 
             this.splitPanel6.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel6.Size = new System.Drawing.Size(468, 277);
+            this.splitPanel6.Size = new System.Drawing.Size(410, 393);
             this.splitPanel6.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, 0.3746356F);
             this.splitPanel6.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, 129);
             this.splitPanel6.TabIndex = 1;
@@ -557,6 +658,7 @@
             // 
             // lisprodutoDataGridView
             // 
+            this.lisprodutoDataGridView.AllowUserToAddRows = false;
             this.lisprodutoDataGridView.AllowUserToDeleteRows = false;
             this.lisprodutoDataGridView.AutoGenerateColumns = false;
             this.lisprodutoDataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
@@ -569,39 +671,21 @@
             this.tamanhosproDataGridViewTextBoxColumn,
             this.idcategoriaDataGridViewTextBoxColumn,
             this.descricaoDataGridViewTextBoxColumn,
-            this.quatidadeDataGridViewTextBoxColumn,
             this.prexo_venda,
+            this.comprimet,
+            this.largura,
             this.aReaDataGridViewTextBoxColumn,
             this.precosDataGridViewTextBoxColumn,
-            this.prexototalDataGridViewTextBoxColumn});
+            this.kilosingle});
             this.lisprodutoDataGridView.ContextMenuStrip = this.contextMenuStrip1;
             this.lisprodutoDataGridView.DataSource = this.lisprodutoBindingSource;
             this.lisprodutoDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lisprodutoDataGridView.Location = new System.Drawing.Point(0, 0);
             this.lisprodutoDataGridView.Name = "lisprodutoDataGridView";
             this.lisprodutoDataGridView.ReadOnly = true;
-            this.lisprodutoDataGridView.Size = new System.Drawing.Size(468, 277);
+            this.lisprodutoDataGridView.Size = new System.Drawing.Size(410, 393);
             this.lisprodutoDataGridView.TabIndex = 0;
             this.lisprodutoDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.lisprodutoDataGridView_CellClick);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.elininarToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(114, 26);
-            // 
-            // elininarToolStripMenuItem
-            // 
-            this.elininarToolStripMenuItem.Image = global::GesObras.Properties.Resources.delete_sign_75px;
-            this.elininarToolStripMenuItem.Name = "elininarToolStripMenuItem";
-            this.elininarToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
-            this.elininarToolStripMenuItem.Text = "Elininar";
-            this.elininarToolStripMenuItem.Click += new System.EventHandler(this.elininarToolStripMenuItem_Click);
-            // 
-            // produtosBindingSource
-            // 
-            this.produtosBindingSource.DataSource = typeof(dbges.produtos);
             // 
             // idprodutosDataGridViewTextBoxColumn
             // 
@@ -609,11 +693,12 @@
             this.idprodutosDataGridViewTextBoxColumn.HeaderText = "N";
             this.idprodutosDataGridViewTextBoxColumn.Name = "idprodutosDataGridViewTextBoxColumn";
             this.idprodutosDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idprodutosDataGridViewTextBoxColumn.Width = 50;
             // 
             // proCategoriasDataGridViewTextBoxColumn
             // 
             this.proCategoriasDataGridViewTextBoxColumn.DataPropertyName = "proCategorias";
-            this.proCategoriasDataGridViewTextBoxColumn.HeaderText = "proCategorias";
+            this.proCategoriasDataGridViewTextBoxColumn.HeaderText = "Categorias";
             this.proCategoriasDataGridViewTextBoxColumn.Name = "proCategoriasDataGridViewTextBoxColumn";
             this.proCategoriasDataGridViewTextBoxColumn.ReadOnly = true;
             // 
@@ -623,18 +708,19 @@
             this.codprodutoDataGridViewTextBoxColumn.HeaderText = "cod";
             this.codprodutoDataGridViewTextBoxColumn.Name = "codprodutoDataGridViewTextBoxColumn";
             this.codprodutoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.codprodutoDataGridViewTextBoxColumn.Visible = false;
             // 
             // produtosnomeDataGridViewTextBoxColumn
             // 
             this.produtosnomeDataGridViewTextBoxColumn.DataPropertyName = "produtos_nome";
-            this.produtosnomeDataGridViewTextBoxColumn.HeaderText = "produtos_nome";
+            this.produtosnomeDataGridViewTextBoxColumn.HeaderText = "produtos";
             this.produtosnomeDataGridViewTextBoxColumn.Name = "produtosnomeDataGridViewTextBoxColumn";
             this.produtosnomeDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // tamanhosproDataGridViewTextBoxColumn
             // 
             this.tamanhosproDataGridViewTextBoxColumn.DataPropertyName = "tamanhos_pro";
-            this.tamanhosproDataGridViewTextBoxColumn.HeaderText = "tamanhos_pro";
+            this.tamanhosproDataGridViewTextBoxColumn.HeaderText = "Medida";
             this.tamanhosproDataGridViewTextBoxColumn.Name = "tamanhosproDataGridViewTextBoxColumn";
             this.tamanhosproDataGridViewTextBoxColumn.ReadOnly = true;
             // 
@@ -654,19 +740,26 @@
             this.descricaoDataGridViewTextBoxColumn.ReadOnly = true;
             this.descricaoDataGridViewTextBoxColumn.Visible = false;
             // 
-            // quatidadeDataGridViewTextBoxColumn
-            // 
-            this.quatidadeDataGridViewTextBoxColumn.DataPropertyName = "Quatidade";
-            this.quatidadeDataGridViewTextBoxColumn.HeaderText = "Quatidade";
-            this.quatidadeDataGridViewTextBoxColumn.Name = "quatidadeDataGridViewTextBoxColumn";
-            this.quatidadeDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
             // prexo_venda
             // 
             this.prexo_venda.DataPropertyName = "prexo_venda";
             this.prexo_venda.HeaderText = "Preco";
             this.prexo_venda.Name = "prexo_venda";
             this.prexo_venda.ReadOnly = true;
+            // 
+            // comprimet
+            // 
+            this.comprimet.DataPropertyName = "comprimet";
+            this.comprimet.HeaderText = "compri";
+            this.comprimet.Name = "comprimet";
+            this.comprimet.ReadOnly = true;
+            // 
+            // largura
+            // 
+            this.largura.DataPropertyName = "largura";
+            this.largura.HeaderText = "largura";
+            this.largura.Name = "largura";
+            this.largura.ReadOnly = true;
             // 
             // aReaDataGridViewTextBoxColumn
             // 
@@ -677,28 +770,182 @@
             // 
             // precosDataGridViewTextBoxColumn
             // 
-            this.precosDataGridViewTextBoxColumn.DataPropertyName = "precos";
+            this.precosDataGridViewTextBoxColumn.DataPropertyName = "qtyp";
             this.precosDataGridViewTextBoxColumn.HeaderText = "precos";
             this.precosDataGridViewTextBoxColumn.Name = "precosDataGridViewTextBoxColumn";
             this.precosDataGridViewTextBoxColumn.ReadOnly = true;
             this.precosDataGridViewTextBoxColumn.Visible = false;
             // 
-            // prexototalDataGridViewTextBoxColumn
+            // kilosingle
             // 
-            this.prexototalDataGridViewTextBoxColumn.DataPropertyName = "prexototal";
-            this.prexototalDataGridViewTextBoxColumn.HeaderText = "prexototal";
-            this.prexototalDataGridViewTextBoxColumn.Name = "prexototalDataGridViewTextBoxColumn";
-            this.prexototalDataGridViewTextBoxColumn.ReadOnly = true;
-            this.prexototalDataGridViewTextBoxColumn.Visible = false;
+            this.kilosingle.DataPropertyName = "kilosingle";
+            this.kilosingle.HeaderText = "kilosingle";
+            this.kilosingle.Name = "kilosingle";
+            this.kilosingle.ReadOnly = true;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.elininarToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(114, 26);
+            // 
+            // elininarToolStripMenuItem
+            // 
+            this.elininarToolStripMenuItem.Image = global::GesObras.Properties.Resources.delete_sign_75px;
+            this.elininarToolStripMenuItem.Name = "elininarToolStripMenuItem";
+            this.elininarToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.elininarToolStripMenuItem.Text = "Elininar";
+            this.elininarToolStripMenuItem.Click += new System.EventHandler(this.elininarToolStripMenuItem_Click);
+            // 
+            // splitPanel7
+            // 
+            this.splitPanel7.Controls.Add(this.splitContainer1);
+            this.splitPanel7.Location = new System.Drawing.Point(725, 0);
+            this.splitPanel7.Name = "splitPanel7";
+            // 
+            // 
+            // 
+            this.splitPanel7.RootElement.MinSize = new System.Drawing.Size(25, 25);
+            this.splitPanel7.Size = new System.Drawing.Size(243, 452);
+            this.splitPanel7.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(-0.08073459F, 0F);
+            this.splitPanel7.SizeInfo.SplitterCorrection = new System.Drawing.Size(-79, 0);
+            this.splitPanel7.TabIndex = 2;
+            this.splitPanel7.TabStop = false;
+            this.splitPanel7.Text = "splitPanel7";
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.radLabel3);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.dataGridView1);
+            this.splitContainer1.Size = new System.Drawing.Size(243, 452);
+            this.splitContainer1.SplitterDistance = 54;
+            this.splitContainer1.TabIndex = 0;
+            // 
+            // radLabel3
+            // 
+            this.radLabel3.Font = new System.Drawing.Font("Segoe UI", 16F);
+            this.radLabel3.Location = new System.Drawing.Point(14, 5);
+            this.radLabel3.Name = "radLabel3";
+            this.radLabel3.Size = new System.Drawing.Size(186, 33);
+            this.radLabel3.TabIndex = 0;
+            this.radLabel3.Text = "Nome do produto";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idprecoProDataGridViewTextBoxColumn,
+            this.qtyproDataGridViewTextBoxColumn,
+            this.precoproDataGridViewTextBoxColumn,
+            this.areatotal,
+            this.Kilogramas,
+            this.Observacao});
+            this.dataGridView1.ContextMenuStrip = this.contextMenuStrip2;
+            this.dataGridView1.DataSource = this.precosproBindingSource;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(243, 394);
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+            // idprecoProDataGridViewTextBoxColumn
+            // 
+            this.idprecoProDataGridViewTextBoxColumn.DataPropertyName = "idprecoPro";
+            this.idprecoProDataGridViewTextBoxColumn.HeaderText = "N";
+            this.idprecoProDataGridViewTextBoxColumn.Name = "idprecoProDataGridViewTextBoxColumn";
+            this.idprecoProDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idprecoProDataGridViewTextBoxColumn.Visible = false;
+            this.idprecoProDataGridViewTextBoxColumn.Width = 50;
+            // 
+            // qtyproDataGridViewTextBoxColumn
+            // 
+            this.qtyproDataGridViewTextBoxColumn.DataPropertyName = "qtypro";
+            this.qtyproDataGridViewTextBoxColumn.HeaderText = "Qty";
+            this.qtyproDataGridViewTextBoxColumn.Name = "qtyproDataGridViewTextBoxColumn";
+            this.qtyproDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // precoproDataGridViewTextBoxColumn
+            // 
+            this.precoproDataGridViewTextBoxColumn.DataPropertyName = "preco_pro";
+            this.precoproDataGridViewTextBoxColumn.HeaderText = "preco";
+            this.precoproDataGridViewTextBoxColumn.Name = "precoproDataGridViewTextBoxColumn";
+            this.precoproDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // areatotal
+            // 
+            this.areatotal.DataPropertyName = "areatotal";
+            this.areatotal.HeaderText = "Area total";
+            this.areatotal.Name = "areatotal";
+            this.areatotal.ReadOnly = true;
+            // 
+            // Kilogramas
+            // 
+            this.Kilogramas.DataPropertyName = "Kilogramas";
+            this.Kilogramas.HeaderText = "KG";
+            this.Kilogramas.Name = "Kilogramas";
+            this.Kilogramas.ReadOnly = true;
+            // 
+            // Observacao
+            // 
+            this.Observacao.DataPropertyName = "Observacao";
+            this.Observacao.HeaderText = "Obs";
+            this.Observacao.Name = "Observacao";
+            this.Observacao.ReadOnly = true;
+            // 
+            // precosproBindingSource
+            // 
+            this.precosproBindingSource.DataSource = typeof(dbges.Precos_pro);
+            // 
+            // produtosBindingSource
+            // 
+            this.produtosBindingSource.DataSource = typeof(dbges.produtos);
+            // 
+            // contextMenuStrip2
+            // 
+            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.actualizarQtyToolStripMenuItem});
+            this.contextMenuStrip2.Name = "contextMenuStrip2";
+            this.contextMenuStrip2.Size = new System.Drawing.Size(145, 26);
+            // 
+            // actualizarQtyToolStripMenuItem
+            // 
+            this.actualizarQtyToolStripMenuItem.Image = global::GesObras.Properties.Resources.add_file_32px;
+            this.actualizarQtyToolStripMenuItem.Name = "actualizarQtyToolStripMenuItem";
+            this.actualizarQtyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.actualizarQtyToolStripMenuItem.Text = "actualizar qty";
+            this.actualizarQtyToolStripMenuItem.Click += new System.EventHandler(this.actualizarQtyToolStripMenuItem_Click);
             // 
             // produtoscad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(799, 380);
+            this.ClientSize = new System.Drawing.Size(968, 510);
             this.Controls.Add(this.radSplitContainer1);
             this.Name = "produtoscad";
-            this.Text = "produtoscad";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
+            this.ShowIcon = false;
+            this.Text = "Produtos";
+            this.ThemeName = "Office2010Silver";
             this.Load += new System.EventHandler(this.produtoscad_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).EndInit();
             this.radSplitContainer1.ResumeLayout(false);
@@ -716,6 +963,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel3)).EndInit();
             this.splitPanel3.ResumeLayout(false);
             this.splitPanel3.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton3)).EndInit();
@@ -734,7 +984,19 @@
             this.splitPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.lisprodutoDataGridView)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitPanel7)).EndInit();
+            this.splitPanel7.ResumeLayout(false);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.precosproBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtosBindingSource)).EndInit();
+            this.contextMenuStrip2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -774,9 +1036,27 @@
         private Telerik.WinControls.UI.RadLabel radLabel2;
         private System.Windows.Forms.TextBox idprodutosTextBox;
         private Telerik.WinControls.UI.RadButton radButton5;
-        private System.Windows.Forms.TextBox aReaTextBox;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem elininarToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn quatidadeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn prexototalDataGridViewTextBoxColumn;
+        private Telerik.WinControls.UI.SplitPanel splitPanel7;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private Telerik.WinControls.UI.RadLabel radLabel3;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.BindingSource precosproBindingSource;
+        private Telerik.WinControls.Themes.Office2010SilverTheme office2010SilverTheme1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox textlargura;
+        private System.Windows.Forms.TextBox textcomprim;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idprecoProDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn qtyproDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn precoproDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn areatotal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Kilogramas;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Observacao;
         private System.Windows.Forms.DataGridViewTextBoxColumn idprodutosDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn proCategoriasDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn codprodutoDataGridViewTextBoxColumn;
@@ -784,10 +1064,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tamanhosproDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn idcategoriaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn descricaoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn quatidadeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn prexo_venda;
+        private System.Windows.Forms.DataGridViewTextBoxColumn comprimet;
+        private System.Windows.Forms.DataGridViewTextBoxColumn largura;
         private System.Windows.Forms.DataGridViewTextBoxColumn aReaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn precosDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn prexototalDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn kilosingle;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem actualizarQtyToolStripMenuItem;
     }
 }

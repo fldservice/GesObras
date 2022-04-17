@@ -11,7 +11,7 @@ using dbges;
 
 namespace GesObras
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Telerik.WinControls.UI.RadForm
     {
         private teteenginhierEntities tete = new teteenginhierEntities();
         public Form1()
@@ -104,6 +104,16 @@ namespace GesObras
                 MessageBox.Show(EX.Message ,"ERROR",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
            
+        }
+
+        private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult t = MessageBox.Show("tem serteza", "ERROR", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (t==DialogResult.Yes)
+            {
+
+            }
         }
     }
 }

@@ -12,7 +12,7 @@ using dbges;
 namespace GesObras
 {
    
-    public partial class Requiform : Form
+    public partial class Requiform : Telerik.WinControls.UI.RadForm 
     { private teteenginhierEntities tete = new teteenginhierEntities();
         public Requiform()
         {
@@ -101,6 +101,8 @@ MessageBox.Show("Produto nao registrado ", "Novo Produto", MessageBoxButtons.OK,
       private  double calcular()
         {
             double valor = 0;
+            double valorto = 0;
+           
             for (int i = 0; i < dataGridView2.RowCount; i++)
             {
 
@@ -108,13 +110,15 @@ MessageBox.Show("Produto nao registrado ", "Novo Produto", MessageBoxButtons.OK,
                 int quant = Convert.ToInt16(dataGridView2[2, i].Value);
                 if (quant != 0)
                 {
-                    valor += Convert.ToDouble(dataGridView2[3, i].Value);
+                   
+                    valor = Convert.ToDouble(dataGridView2[3, i].Value);
+                    valorto += quant * valor;
 
                 }
 
             }
-            radLabel4.Text = valor.ToString();
-                    return valor;
+            radLabel4.Text = valorto.ToString();
+                    return valorto;
         }
         public void adicionaritemfactura()
         {
@@ -186,7 +190,7 @@ MessageBox.Show("Produto nao registrado ", "Novo Produto", MessageBoxButtons.OK,
                 re = new requizicao();
                 var contar = tete.requizicao.Count();
                 
-                re.idrequisica= contar + 1;
+                //re.idrequisica= contar + 1;
                 re.datarequiz = DateTime.Now;
                 re.ifornecidor = idforn;
                 re.estadore = "Requizitado";

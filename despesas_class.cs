@@ -9,20 +9,10 @@ namespace GesObras
    public  class despesas_class
     {
        private teteenginhierEntities si =new teteenginhierEntities ();
-       private enum categoriasfixas {
-           Ferro,
-           Aco,
-           Varoes,
-           Tintas,
-           Cantoneiras,
-           Electrodos,
-           Chapas,
-           Pregos,
-           Parafusos,
-           Discos,
-           Tubos,
-           Barras
-
+       private enum tpplanos {
+           Despesas,
+           Receitas,
+           Outros,
           
        
        }
@@ -51,6 +41,7 @@ namespace GesObras
          Sweets
        
        }
+       
        //despessa
        private enum despfixas { 
       
@@ -73,50 +64,57 @@ namespace GesObras
         private enum tp_funcionarios//Internos ou externos
         {
 
-            
+            Internos,
+            Externos,
         }
         private enum tpoprocessos//tipo de processo
         {
 
             Salario,
             Horas,
-     
         }
-        public void Cadcategorias()
+        public void Rexeitas()
         {
             //cadastrar receitas por defeito
-            categoria de = new categoria();
-            var despfixas = Enum.GetValues(typeof(categoriasfixas)).Cast<categoriasfixas>().ToList();
+            planos de = new planos();
+            var despfixas = Enum.GetValues(typeof(recitas)).Cast<recitas>().ToList();
             Random r = new Random();
             foreach (var item in despfixas)
             {
-                
-                de.proCategorias = item.ToString();
-                si.categoria.Add(de);
+                de.tipodplanoid = 2;
+                de.codplano = r.Next(9999).ToString();
+                de.plano = item.ToString();
+                si.planos.Add(de);
                 si.SaveChanges();
             }
+           
 
 
 
         }
-        public void tamanhos()
+        public void inserides()
         {
             //cadastrar despesas por defeito
-            //planos de = new planos();
-            //var despfixas = Enum.GetValues(typeof(despfixas)).Cast<despfixas>().ToList();
-            //Random r = new Random();
-            //foreach (var item in despfixas)
-            //{
-            //    de.tipodplanoid = 1;
-            //    de.codplano = r.Next(9999).ToString();
-            //    de.plano = item.ToString();
-            //    si.planos.Add(de);
-            //    si.SaveChanges();
-            //}
-
-
-
+            planos de = new planos();
+            var despfixas = Enum.GetValues(typeof(despfixas)).Cast<despfixas>().ToList();
+            Random r = new Random();
+            foreach (var item in despfixas)
+            {
+                de.tipodplanoid = 1;
+                de.codplano = r.Next(9999).ToString();
+                de.plano = item.ToString();
+                si.planos.Add(de);
+                si.SaveChanges();
             }
+            banco b = new banco();
+            b.nomebanco = "Caixa";
+            b.saldo = 0;
+            b.nrcontabanco = "000Bog";
+            si.banco.Add(b);
+            si.SaveChanges();
+
+
+        }
             void Rh_objects()//inseri dados do rh
         {
            // si = new SISFINANCAEntities();
@@ -156,15 +154,15 @@ namespace GesObras
        {
             //registar salario e horas
 
-            //TP_Plano de = new TP_Plano();
-            //var despfixas = Enum.GetValues(typeof(tpplanos)).Cast<tpplanos>().ToList();
-            //foreach (var item in despfixas)
-            //{
-            //    de.tipodeplano = item.ToString();
-            //    de.abreviatura = item.ToString();
-            //    si.TP_Plano.Add(de);
-            //    si.SaveChanges();
-            //}
+            TP_Plano de = new TP_Plano();
+            var despfixas = Enum.GetValues(typeof(tpplanos)).Cast<tpplanos>().ToList();
+            foreach (var item in despfixas)
+            {
+                de.tipodeplano = item.ToString();
+                de.abreviatura = item.ToString();
+                si.TP_Plano.Add(de);
+                si.SaveChanges();
+            }
 
 
 
@@ -174,15 +172,15 @@ namespace GesObras
        public void frmPaga()
        {
 
-            //formaPagamento f = new formaPagamento();
-            //var formas = Enum.GetValues(typeof(formapad)).Cast<formapad>().ToList();
-            //foreach (var item in formas)
-            //{
-            //    f.formPag = item.ToString();
-            //    si.formaPagamento.Add(f);
-            //    si.SaveChanges();
+            formaPagamento f = new formaPagamento();
+            var formas = Enum.GetValues(typeof(formapad)).Cast<formapad>().ToList();
+            foreach (var item in formas)
+            {
+                f.formPag = item.ToString();
+                si.formaPagamento.Add(f);
+                si.SaveChanges();
 
-            //}
+            }
             
            
           

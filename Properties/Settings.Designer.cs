@@ -36,7 +36,7 @@ namespace GesObras.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("2017-12-09")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2021-06-07")]
         public global::System.DateTime hoje {
             get {
                 return ((global::System.DateTime)(this["hoje"]));

@@ -49,10 +49,11 @@ namespace GesObras
         {
             if (idobra != 0)
             {
-              gesreport.verobras  ad = new gesreport.verobras();
-                ad.idcassamba = idobra;
               
-                ad.ShowDialog();
+                gesreport.verobras  ad = new gesreport.verobras();
+                ad.idcassamba = idobra;
+               
+                ad.Show();
             }
         }
     }

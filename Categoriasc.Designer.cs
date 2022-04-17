@@ -36,16 +36,19 @@
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
+            this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.categoriaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.radButton2 = new Telerik.WinControls.UI.RadButton();
             this.radButton1 = new Telerik.WinControls.UI.RadButton();
             this.descricaoTextBox = new System.Windows.Forms.TextBox();
-            this.categoriaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.proCategoriasTextBox = new System.Windows.Forms.TextBox();
             this.idcateTextBox = new System.Windows.Forms.TextBox();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.categoriaDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             descricaoLabel = new System.Windows.Forms.Label();
             idcateLabel = new System.Windows.Forms.Label();
@@ -59,12 +62,14 @@
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
             this.splitPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
             this.splitPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.categoriaDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
             // descricaoLabel
@@ -144,6 +149,9 @@
             // 
             // splitPanel1
             // 
+            this.splitPanel1.AutoScroll = true;
+            this.splitPanel1.Controls.Add(this.radLabel2);
+            this.splitPanel1.Controls.Add(this.checkBox1);
             this.splitPanel1.Controls.Add(this.radButton2);
             this.splitPanel1.Controls.Add(this.radButton1);
             this.splitPanel1.Controls.Add(descricaoLabel);
@@ -166,24 +174,52 @@
             this.splitPanel1.Text = "splitPanel1";
             this.splitPanel1.ThemeName = "TelerikMetro";
             // 
+            // radLabel2
+            // 
+            this.radLabel2.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.radLabel2.ForeColor = System.Drawing.Color.DarkGreen;
+            this.radLabel2.Location = new System.Drawing.Point(13, 183);
+            this.radLabel2.Name = "radLabel2";
+            this.radLabel2.Size = new System.Drawing.Size(11, 25);
+            this.radLabel2.TabIndex = 10;
+            this.radLabel2.Text = ".";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.categoriaBindingSource, "activoTangivel", true));
+            this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.checkBox1.Location = new System.Drawing.Point(105, 129);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(118, 23);
+            this.checkBox1.TabIndex = 9;
+            this.checkBox1.Text = "Activo Tangivel";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // categoriaBindingSource
+            // 
+            this.categoriaBindingSource.DataSource = typeof(dbges.categoria);
+            // 
             // radButton2
             // 
             this.radButton2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radButton2.Location = new System.Drawing.Point(119, 151);
+            this.radButton2.Location = new System.Drawing.Point(118, 208);
             this.radButton2.Name = "radButton2";
             this.radButton2.Size = new System.Drawing.Size(102, 38);
             this.radButton2.TabIndex = 6;
             this.radButton2.Text = "Salvar";
+            this.radButton2.ThemeName = "Office2010Silver";
             this.radButton2.Click += new System.EventHandler(this.radButton2_Click);
             // 
             // radButton1
             // 
             this.radButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radButton1.Location = new System.Drawing.Point(15, 151);
+            this.radButton1.Location = new System.Drawing.Point(14, 208);
             this.radButton1.Name = "radButton1";
             this.radButton1.Size = new System.Drawing.Size(98, 38);
             this.radButton1.TabIndex = 6;
             this.radButton1.Text = "Novo";
+            this.radButton1.ThemeName = "Office2010Silver";
             this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // descricaoTextBox
@@ -191,19 +227,15 @@
             this.descricaoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.categoriaBindingSource, "Descricao", true));
             this.descricaoTextBox.Location = new System.Drawing.Point(105, 70);
             this.descricaoTextBox.Name = "descricaoTextBox";
-            this.descricaoTextBox.Size = new System.Drawing.Size(100, 23);
+            this.descricaoTextBox.Size = new System.Drawing.Size(115, 23);
             this.descricaoTextBox.TabIndex = 1;
-            // 
-            // categoriaBindingSource
-            // 
-            this.categoriaBindingSource.DataSource = typeof(dbges.categoria);
             // 
             // proCategoriasTextBox
             // 
             this.proCategoriasTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.categoriaBindingSource, "proCategorias", true));
             this.proCategoriasTextBox.Location = new System.Drawing.Point(105, 99);
             this.proCategoriasTextBox.Name = "proCategoriasTextBox";
-            this.proCategoriasTextBox.Size = new System.Drawing.Size(100, 23);
+            this.proCategoriasTextBox.Size = new System.Drawing.Size(115, 23);
             this.proCategoriasTextBox.TabIndex = 5;
             // 
             // idcateTextBox
@@ -211,7 +243,7 @@
             this.idcateTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.categoriaBindingSource, "idcate", true));
             this.idcateTextBox.Location = new System.Drawing.Point(105, 41);
             this.idcateTextBox.Name = "idcateTextBox";
-            this.idcateTextBox.Size = new System.Drawing.Size(100, 23);
+            this.idcateTextBox.Size = new System.Drawing.Size(115, 23);
             this.idcateTextBox.TabIndex = 3;
             // 
             // splitPanel2
@@ -237,10 +269,12 @@
             // 
             this.categoriaDataGridView.AllowUserToDeleteRows = false;
             this.categoriaDataGridView.AutoGenerateColumns = false;
+            this.categoriaDataGridView.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.categoriaDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.categoriaDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn1,
+            this.Column1,
             this.dataGridViewTextBoxColumn2});
             this.categoriaDataGridView.DataSource = this.categoriaBindingSource;
             this.categoriaDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -248,6 +282,7 @@
             this.categoriaDataGridView.Name = "categoriaDataGridView";
             this.categoriaDataGridView.Size = new System.Drawing.Size(356, 280);
             this.categoriaDataGridView.TabIndex = 0;
+            this.categoriaDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.categoriaDataGridView_CellClick);
             // 
             // dataGridViewTextBoxColumn3
             // 
@@ -260,6 +295,12 @@
             this.dataGridViewTextBoxColumn1.DataPropertyName = "proCategorias";
             this.dataGridViewTextBoxColumn1.HeaderText = "Categorias";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "activoTangivel";
+            this.Column1.HeaderText = "A.Tangivel";
+            this.Column1.Name = "Column1";
             // 
             // dataGridViewTextBoxColumn2
             // 
@@ -274,7 +315,13 @@
             this.ClientSize = new System.Drawing.Size(598, 320);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Categoriasc";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
+            this.ShowIcon = false;
             this.Text = "Categoriasc";
+            this.ThemeName = "Office2010Silver";
             this.Load += new System.EventHandler(this.Categoriasc_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
@@ -287,12 +334,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
             this.splitPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.categoriaDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -313,6 +362,9 @@
         private System.Windows.Forms.DataGridView categoriaDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private Telerik.WinControls.UI.RadLabel radLabel2;
     }
 }

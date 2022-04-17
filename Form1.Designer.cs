@@ -57,6 +57,8 @@
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             contactocliLabel = new System.Windows.Forms.Label();
             emailcliLabel = new System.Windows.Forms.Label();
             enderecocliLabel = new System.Windows.Forms.Label();
@@ -76,6 +78,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientesDataGridView)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
             // contactocliLabel
@@ -161,8 +165,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(709, 323);
-            this.splitContainer1.SplitterDistance = 339;
+            this.splitContainer1.Size = new System.Drawing.Size(764, 323);
+            this.splitContainer1.SplitterDistance = 361;
             this.splitContainer1.TabIndex = 0;
             // 
             // radLabel1
@@ -176,9 +180,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(228, 252);
+            this.button3.Location = new System.Drawing.Point(243, 252);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 34);
+            this.button3.Size = new System.Drawing.Size(103, 42);
             this.button3.TabIndex = 13;
             this.button3.Text = "Actualizar";
             this.button3.UseVisualStyleBackColor = true;
@@ -186,9 +190,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(119, 252);
+            this.button2.Location = new System.Drawing.Point(134, 252);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 34);
+            this.button2.Size = new System.Drawing.Size(103, 42);
             this.button2.TabIndex = 13;
             this.button2.Text = "Salvar";
             this.button2.UseVisualStyleBackColor = true;
@@ -196,9 +200,11 @@
             // 
             // button1
             // 
+            this.button1.Image = global::GesObras.Properties.Resources.plus_32px;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(19, 252);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 34);
+            this.button1.Size = new System.Drawing.Size(109, 42);
             this.button1.TabIndex = 12;
             this.button1.Text = "Novo";
             this.button1.UseVisualStyleBackColor = true;
@@ -273,7 +279,7 @@
             this.splitContainer2.Panel2.AutoScroll = true;
             this.splitContainer2.Panel2.Controls.Add(this.clientesDataGridView);
             this.splitContainer2.Panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.splitContainer2.Size = new System.Drawing.Size(366, 323);
+            this.splitContainer2.Size = new System.Drawing.Size(399, 323);
             this.splitContainer2.SplitterDistance = 37;
             this.splitContainer2.TabIndex = 0;
             // 
@@ -294,7 +300,7 @@
             this.radTextBox1.Size = new System.Drawing.Size(251, 27);
             this.radTextBox1.TabIndex = 0;
             this.radTextBox1.TabStop = false;
-            this.radTextBox1.ThemeName = "Office2010Black";
+            this.radTextBox1.ThemeName = "Office2010Silver";
             this.radTextBox1.TextChanged += new System.EventHandler(this.radTextBox1_TextChanged);
             // 
             // clientesDataGridView
@@ -310,11 +316,12 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
+            this.clientesDataGridView.ContextMenuStrip = this.contextMenuStrip1;
             this.clientesDataGridView.DataSource = this.clientesBindingSource;
             this.clientesDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.clientesDataGridView.Location = new System.Drawing.Point(0, 0);
             this.clientesDataGridView.Name = "clientesDataGridView";
-            this.clientesDataGridView.Size = new System.Drawing.Size(366, 282);
+            this.clientesDataGridView.Size = new System.Drawing.Size(399, 282);
             this.clientesDataGridView.TabIndex = 0;
             this.clientesDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.clientesDataGridView_CellClick);
             // 
@@ -354,14 +361,35 @@
             this.dataGridViewTextBoxColumn6.HeaderText = "Nuit";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.eliminarToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(118, 26);
+            // 
+            // eliminarToolStripMenuItem
+            // 
+            this.eliminarToolStripMenuItem.Image = global::GesObras.Properties.Resources.delete_sign_75px;
+            this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.eliminarToolStripMenuItem.Text = "Eliminar";
+            this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(709, 323);
+            this.ClientSize = new System.Drawing.Size(764, 323);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Form1";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
+            this.ShowIcon = false;
             this.Text = "Clientes";
+            this.ThemeName = "Office2010Silver";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
@@ -378,6 +406,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientesDataGridView)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -406,6 +436,8 @@
         private Telerik.WinControls.UI.RadTextBox radTextBox1;
         private Telerik.WinControls.UI.RadLabel radLabel1;
         private Telerik.WinControls.UI.RadLabel radLabel2;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem eliminarToolStripMenuItem;
     }
 }
 

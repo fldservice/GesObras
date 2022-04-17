@@ -53,3 +53,769 @@ C:\Users\P.Laisson\documents\visual studio 2015\Projects\GesObras\GesObras\obj\D
 C:\Users\P.Laisson\documents\visual studio 2015\Projects\GesObras\GesObras\obj\Debug\GesObras.receberpro.resources
 C:\Users\P.Laisson\documents\visual studio 2015\Projects\GesObras\GesObras\obj\Debug\GesObras.AboutBox1.resources
 C:\Users\P.Laisson\documents\visual studio 2015\Projects\GesObras\GesObras\obj\Debug\GesObras.actpendentes.resources
+C:\venda\GesObras\GesObras\bin\Debug\GesObras.exe.config
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.exe
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.pdb
+C:\venda\GesObras\GesObras\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\venda\GesObras\GesObras\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\venda\GesObras\GesObras\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\venda\GesObras\GesObras\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\venda\GesObras\GesObras\bin\Debug\GesObras.exe
+C:\venda\GesObras\GesObras\bin\Debug\GesObras.pdb
+C:\venda\GesObras\GesObras\bin\Debug\dbges.dll
+C:\venda\GesObras\GesObras\bin\Debug\EntityFramework.dll
+C:\venda\GesObras\GesObras\bin\Debug\EntityFramework.SqlServer.dll
+C:\venda\GesObras\GesObras\bin\Debug\gesreport.exe
+C:\venda\GesObras\GesObras\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.dll
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.GridView.dll
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.RichTextBox.dll
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.UI.dll
+C:\venda\GesObras\GesObras\bin\Debug\TelerikCommon.dll
+C:\venda\GesObras\GesObras\bin\Debug\dbges.pdb
+C:\venda\GesObras\GesObras\bin\Debug\gesreport.pdb
+C:\venda\GesObras\GesObras\bin\Debug\EntityFramework.xml
+C:\venda\GesObras\GesObras\bin\Debug\EntityFramework.SqlServer.xml
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.xml
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.GridView.xml
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.RichTextBox.xml
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.UI.xml
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.csprojResolveAssemblyReference.cache
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.AboutBox1.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.actpendentes.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.addprodutos.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.Cadobras.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.Categoriasc.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.Descregi.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.entradas.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.Form1.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.frmescritorioas.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.frmfornecidore.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.lisObras.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.loginFom.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.MDIParent1.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.produtoscad.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.Properties.Resources.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.receberpro.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.Requiform.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.requizicoess.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.userfom.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.vercassabass.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.vercompras.resources
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.csproj.GenerateResource.Cache
+C:\venda\GesObras\GesObras\obj\Debug\RdlCompile.cache
+C:\venda\GesObras\GesObras\obj\Debug\RdlCompile.compiled
+C:\venda\GesObras\GesObras\bin\Debug\gesInvent.exe
+C:\venda\GesObras\GesObras\bin\Debug\gesInvent.pdb
+C:\venda\GesObras\GesObras\bin\Debug\Tulpep.NotificationWindow.dll
+C:\venda\GesObras\GesObras\bin\Debug\MetroFramework.Design.dll
+C:\venda\GesObras\GesObras\bin\Debug\MetroFramework.dll
+C:\venda\GesObras\GesObras\bin\Debug\MetroFramework.Fonts.dll
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\venda\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\venda\GesObras\GesObras\obj\Debug\GesObras.frmAddservicObras.resources
+D:\GesObras\GesObras\bin\Debug\GesObras.exe.config
+D:\GesObras\GesObras\obj\Debug\GesObras.exe
+D:\GesObras\GesObras\obj\Debug\GesObras.pdb
+D:\GesObras\GesObras\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\GesObras\GesObras\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\GesObras\GesObras\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\GesObras\GesObras\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\GesObras\GesObras\bin\Debug\GesObras.exe
+D:\GesObras\GesObras\bin\Debug\GesObras.pdb
+D:\GesObras\GesObras\bin\Debug\dbges.dll
+D:\GesObras\GesObras\bin\Debug\EntityFramework.dll
+D:\GesObras\GesObras\bin\Debug\EntityFramework.SqlServer.dll
+D:\GesObras\GesObras\bin\Debug\gesInvent.exe
+D:\GesObras\GesObras\bin\Debug\gesreport.exe
+D:\GesObras\GesObras\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.GridView.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.RichTextBox.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.UI.dll
+D:\GesObras\GesObras\bin\Debug\TelerikCommon.dll
+D:\GesObras\GesObras\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\GesObras\GesObras\bin\Debug\dbges.pdb
+D:\GesObras\GesObras\bin\Debug\gesInvent.pdb
+D:\GesObras\GesObras\bin\Debug\gesreport.pdb
+D:\GesObras\GesObras\bin\Debug\EntityFramework.xml
+D:\GesObras\GesObras\bin\Debug\EntityFramework.SqlServer.xml
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.xml
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.GridView.xml
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.RichTextBox.xml
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.UI.xml
+D:\GesObras\GesObras\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\GesObras\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\GesObras\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\GesObras\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\GesObras\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\GesObras\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\GesObras\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\GesObras\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\GesObras\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\GesObras\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\GesObras\obj\Debug\GesObras.csprojResolveAssemblyReference.cache
+D:\GesObras\GesObras\obj\Debug\GesObras.AboutBox1.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.actpendentes.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.addprodutos.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.Cadobras.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.Categoriasc.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.Descregi.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.entradas.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.Form1.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.frmAddservicObras.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.frmescritorioas.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.frmfornecidore.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.lisObras.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.loginFom.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.MDIParent1.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.produtoscad.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.Properties.Resources.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.receberpro.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.Requiform.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.requizicoess.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.userfom.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.vercassabass.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.vercompras.resources
+D:\GesObras\GesObras\obj\Debug\GesObras.csproj.GenerateResource.Cache
+D:\GesObras\GesObras\obj\Debug\RdlCompile.cache
+D:\GesObras\GesObras\obj\Debug\RdlCompile.compiled
+D:\GesObras\GesObras\bin\Debug\QuickStart.dll
+D:\GesObras\GesObras\bin\Debug\BarcodeLib.dll
+D:\GesObras\GesObras\bin\Debug\RadControlSpy.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+D:\GesObras\GesObras\obj\Debug\GesObras.csproj.GesObras.exe.config
+D:\GesObras\GesObras\bin\Debug\GesHonorario.exe
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.Scheduler.dll
+D:\GesObras\GesObras\bin\Debug\GesHonorario.pdb
+D:\GesObras\GesObras\bin\Debug\Telerik.WinControls.Scheduler.xml
+D:\GesObras\GesObras\obj\Debug\Gescom.Registo.form_registo.resources
+D:\GesObras\GesObras\obj\Debug\Gescom.Registo.frm_criasenha.resources
+D:\GesObras\GesObras\obj\Debug\Gescom.Registo.frm_detalhes_registo.resources
+D:\GesObras\GesObras\obj\Debug\Gescom.Registo.frm_gerar_senhas.resources
+D:\GesObras\GesObras\bin\Debug\FoxLearn.License.dll
+D:\GesObras\GesObras\bin\Debug\sisfince.exe
+D:\GesObras\GesObras\bin\Debug\DGV Printer.dll
+D:\GesObras\GesObras\bin\Debug\sisfince.pdb
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\GesObras.exe.config
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.exe
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.pdb
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\GesObras.exe
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\GesObras.pdb
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\dbges.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\EntityFramework.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\FoxLearn.License.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\GesHonorario.exe
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\gesInvent.exe
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\gesreport.exe
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\sisfince.exe
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.GridView.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.RichTextBox.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\TelerikCommon.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\QuickStart.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\BarcodeLib.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\DGV Printer.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\RadControlSpy.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\dbges.pdb
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\GesHonorario.pdb
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\gesInvent.pdb
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\gesreport.pdb
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\sisfince.pdb
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\EntityFramework.xml
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.xml
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.GridView.xml
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.RichTextBox.xml
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.xml
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.csprojResolveAssemblyReference.cache
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.csproj.GesObras.exe.config
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.AboutBox1.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.actpendentes.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.addprodutos.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.Cadobras.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.Categoriasc.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.Descregi.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.entradas.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.Form1.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.frmAddservicObras.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.frmescritorioas.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.frmfornecidore.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.lisObras.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.loginFom.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.MDIParent1.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.produtoscad.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.Properties.Resources.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.receberpro.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\Gescom.Registo.form_registo.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\Gescom.Registo.frm_criasenha.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\Gescom.Registo.frm_detalhes_registo.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\Gescom.Registo.frm_gerar_senhas.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.Requiform.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.requizicoess.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.userfom.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.vercassabass.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.vercompras.resources
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.csproj.GenerateResource.Cache
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\RdlCompile.cache
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\RdlCompile.compiled
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\GesAbastecimento.exe
+C:\Users\BogPro\Desktop\china pro\GesObras\bin\Debug\GesAbastecimento.pdb
+C:\Users\BogPro\Desktop\china pro\GesObras\obj\Debug\GesObras.splashBog.resources
+D:\GesObras\china pro\GesObras\bin\Debug\GesObras.exe.config
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.exe
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.pdb
+D:\GesObras\china pro\GesObras\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\GesObras\china pro\GesObras\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\GesObras\china pro\GesObras\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\GesObras\china pro\GesObras\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\GesObras\china pro\GesObras\bin\Debug\GesObras.exe
+D:\GesObras\china pro\GesObras\bin\Debug\GesObras.pdb
+D:\GesObras\china pro\GesObras\bin\Debug\dbges.dll
+D:\GesObras\china pro\GesObras\bin\Debug\EntityFramework.dll
+D:\GesObras\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.dll
+D:\GesObras\china pro\GesObras\bin\Debug\FoxLearn.License.dll
+D:\GesObras\china pro\GesObras\bin\Debug\GesAbastecimento.exe
+D:\GesObras\china pro\GesObras\bin\Debug\GesHonorario.exe
+D:\GesObras\china pro\GesObras\bin\Debug\gesInvent.exe
+D:\GesObras\china pro\GesObras\bin\Debug\gesreport.exe
+D:\GesObras\china pro\GesObras\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\GesObras\china pro\GesObras\bin\Debug\sisfince.exe
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.GridView.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.RichTextBox.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.UI.dll
+D:\GesObras\china pro\GesObras\bin\Debug\TelerikCommon.dll
+D:\GesObras\china pro\GesObras\bin\Debug\QuickStart.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.dll
+D:\GesObras\china pro\GesObras\bin\Debug\BarcodeLib.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+D:\GesObras\china pro\GesObras\bin\Debug\DGV Printer.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\GesObras\china pro\GesObras\bin\Debug\RadControlSpy.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+D:\GesObras\china pro\GesObras\bin\Debug\dbges.pdb
+D:\GesObras\china pro\GesObras\bin\Debug\GesAbastecimento.pdb
+D:\GesObras\china pro\GesObras\bin\Debug\GesHonorario.pdb
+D:\GesObras\china pro\GesObras\bin\Debug\gesInvent.pdb
+D:\GesObras\china pro\GesObras\bin\Debug\gesreport.pdb
+D:\GesObras\china pro\GesObras\bin\Debug\sisfince.pdb
+D:\GesObras\china pro\GesObras\bin\Debug\EntityFramework.xml
+D:\GesObras\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.xml
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.xml
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.GridView.xml
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.RichTextBox.xml
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.UI.xml
+D:\GesObras\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.xml
+D:\GesObras\china pro\GesObras\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\china pro\GesObras\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\china pro\GesObras\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\china pro\GesObras\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\china pro\GesObras\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\china pro\GesObras\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\china pro\GesObras\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\china pro\GesObras\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\china pro\GesObras\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\china pro\GesObras\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.csprojResolveAssemblyReference.cache
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.csproj.GesObras.exe.config
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.AboutBox1.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.actpendentes.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.addprodutos.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.Cadobras.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.Categoriasc.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.Descregi.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.entradas.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.Form1.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.frmAddservicObras.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.frmescritorioas.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.frmfornecidore.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.lisObras.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.loginFom.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.MDIParent1.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.produtoscad.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.Properties.Resources.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.receberpro.resources
+D:\GesObras\china pro\GesObras\obj\Debug\Gescom.Registo.form_registo.resources
+D:\GesObras\china pro\GesObras\obj\Debug\Gescom.Registo.frm_criasenha.resources
+D:\GesObras\china pro\GesObras\obj\Debug\Gescom.Registo.frm_detalhes_registo.resources
+D:\GesObras\china pro\GesObras\obj\Debug\Gescom.Registo.frm_gerar_senhas.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.Requiform.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.requizicoess.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.splashBog.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.userfom.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.vercassabass.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.vercompras.resources
+D:\GesObras\china pro\GesObras\obj\Debug\GesObras.csproj.GenerateResource.Cache
+D:\GesObras\china pro\GesObras\obj\Debug\RdlCompile.cache
+D:\GesObras\china pro\GesObras\obj\Debug\RdlCompile.compiled
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\GesObras.exe.config
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\GesObras.exe
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\GesObras.pdb
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\dbges.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\EntityFramework.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\GesHonorario.exe
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\gesInvent.exe
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\gesreport.exe
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\sisfince.exe
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.GridView.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.RichTextBox.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.UI.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\TelerikCommon.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\QuickStart.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\BarcodeLib.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\DGV Printer.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\RadControlSpy.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\dbges.pdb
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\GesHonorario.pdb
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\gesInvent.pdb
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\gesreport.pdb
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\sisfince.pdb
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\EntityFramework.xml
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.xml
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.xml
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.GridView.xml
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.RichTextBox.xml
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.UI.xml
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.xml
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\New project 2021\china pro\GesObras\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.AboutBox1.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.actpendentes.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.addprodutos.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.Cadobras.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.Categoriasc.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.Descregi.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.entradas.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.Form1.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.frmAddservicObras.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.frmescritorioas.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.frmfornecidore.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.lisObras.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.loginFom.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.MDIParent1.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.produtoscad.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.Properties.Resources.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.receberpro.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\Gescom.Registo.form_registo.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\Gescom.Registo.frm_criasenha.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\Gescom.Registo.frm_detalhes_registo.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\Gescom.Registo.frm_gerar_senhas.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.Requiform.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.requizicoess.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.splashBog.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.userfom.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.vercassabass.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.vercompras.resources
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.csproj.GenerateResource.cache
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.exe
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.pdb
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.csprojResolveAssemblyReference.cache
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\GesObras.csproj.GesObras.exe.config
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\RdlCompile.cache
+D:\GesObras\New project 2021\china pro\GesObras\obj\Debug\RdlCompile.compiled
+C:\mystuff\china pro\GesObras\bin\Debug\GesObras.exe.config
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.exe
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.pdb
+C:\mystuff\china pro\GesObras\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\mystuff\china pro\GesObras\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\mystuff\china pro\GesObras\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\mystuff\china pro\GesObras\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\mystuff\china pro\GesObras\bin\Debug\GesObras.exe
+C:\mystuff\china pro\GesObras\bin\Debug\GesObras.pdb
+C:\mystuff\china pro\GesObras\bin\Debug\dbges.dll
+C:\mystuff\china pro\GesObras\bin\Debug\EntityFramework.dll
+C:\mystuff\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.dll
+C:\mystuff\china pro\GesObras\bin\Debug\GesHonorario.exe
+C:\mystuff\china pro\GesObras\bin\Debug\gesInvent.exe
+C:\mystuff\china pro\GesObras\bin\Debug\gesreport.exe
+C:\mystuff\china pro\GesObras\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\mystuff\china pro\GesObras\bin\Debug\sisfince.exe
+C:\mystuff\china pro\GesObras\bin\Debug\QuickStart.dll
+C:\mystuff\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.dll
+C:\mystuff\china pro\GesObras\bin\Debug\BarcodeLib.dll
+C:\mystuff\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\mystuff\china pro\GesObras\bin\Debug\DGV Printer.dll
+C:\mystuff\china pro\GesObras\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\mystuff\china pro\GesObras\bin\Debug\RadControlSpy.dll
+C:\mystuff\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\mystuff\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\mystuff\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\mystuff\china pro\GesObras\bin\Debug\dbges.pdb
+C:\mystuff\china pro\GesObras\bin\Debug\GesHonorario.pdb
+C:\mystuff\china pro\GesObras\bin\Debug\gesInvent.pdb
+C:\mystuff\china pro\GesObras\bin\Debug\gesreport.pdb
+C:\mystuff\china pro\GesObras\bin\Debug\sisfince.pdb
+C:\mystuff\china pro\GesObras\bin\Debug\EntityFramework.xml
+C:\mystuff\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.xml
+C:\mystuff\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.xml
+C:\mystuff\china pro\GesObras\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\mystuff\china pro\GesObras\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\mystuff\china pro\GesObras\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\mystuff\china pro\GesObras\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\mystuff\china pro\GesObras\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\mystuff\china pro\GesObras\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\mystuff\china pro\GesObras\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\mystuff\china pro\GesObras\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\mystuff\china pro\GesObras\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\mystuff\china pro\GesObras\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.csprojResolveAssemblyReference.cache
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.csproj.GesObras.exe.config
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.AboutBox1.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.actpendentes.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.addprodutos.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.Cadobras.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.Categoriasc.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.Descregi.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.entradas.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.Form1.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.frmAddservicObras.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.frmescritorioas.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.frmfornecidore.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.lisObras.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.loginFom.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.MDIParent1.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.produtoscad.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.Properties.Resources.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.receberpro.resources
+C:\mystuff\china pro\GesObras\obj\Debug\Gescom.Registo.form_registo.resources
+C:\mystuff\china pro\GesObras\obj\Debug\Gescom.Registo.frm_criasenha.resources
+C:\mystuff\china pro\GesObras\obj\Debug\Gescom.Registo.frm_detalhes_registo.resources
+C:\mystuff\china pro\GesObras\obj\Debug\Gescom.Registo.frm_gerar_senhas.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.Requiform.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.requizicoess.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.splashBog.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.userfom.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.vercassabass.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.vercompras.resources
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.csproj.GenerateResource.Cache
+C:\mystuff\china pro\GesObras\obj\Debug\RdlCompile.cache
+C:\mystuff\china pro\GesObras\obj\Debug\RdlCompile.compiled
+C:\mystuff\china pro\GesObras\obj\Debug\GesObras.frm_updaeDetalhes.resources
+C:\Advogados\china pro\GesObras\bin\Debug\GesHonorario.exe
+C:\Advogados\china pro\GesObras\bin\Debug\dbges.dll
+C:\Advogados\china pro\GesObras\bin\Debug\EntityFramework.dll
+C:\Advogados\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.dll
+C:\Advogados\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Advogados\china pro\GesObras\bin\Debug\ExcelDataReader.dll
+C:\Advogados\china pro\GesObras\bin\Debug\gesInvent.exe
+C:\Advogados\china pro\GesObras\bin\Debug\gesreport.exe
+C:\Advogados\china pro\GesObras\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Advogados\china pro\GesObras\bin\Debug\sisfince.exe
+C:\Advogados\china pro\GesObras\bin\Debug\QuickStart.dll
+C:\Advogados\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.dll
+C:\Advogados\china pro\GesObras\bin\Debug\BarcodeLib.dll
+C:\Advogados\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Advogados\china pro\GesObras\bin\Debug\DGV Printer.dll
+C:\Advogados\china pro\GesObras\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Advogados\china pro\GesObras\bin\Debug\RadControlSpy.dll
+C:\Advogados\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Advogados\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Advogados\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Advogados\china pro\GesObras\bin\Debug\dbges.pdb
+C:\Advogados\china pro\GesObras\bin\Debug\gesInvent.pdb
+C:\Advogados\china pro\GesObras\bin\Debug\gesreport.pdb
+C:\Advogados\china pro\GesObras\bin\Debug\sisfince.pdb
+C:\Advogados\china pro\GesObras\bin\Debug\EntityFramework.xml
+C:\Advogados\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.xml
+C:\Advogados\china pro\GesObras\bin\Debug\ExcelDataReader.pdb
+C:\Advogados\china pro\GesObras\bin\Debug\ExcelDataReader.xml
+C:\Advogados\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Advogados\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Advogados\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.xml
+C:\Advogados\china pro\GesObras\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Advogados\china pro\GesObras\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Advogados\china pro\GesObras\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Advogados\china pro\GesObras\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Advogados\china pro\GesObras\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Advogados\china pro\GesObras\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Advogados\china pro\GesObras\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Advogados\china pro\GesObras\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Advogados\china pro\GesObras\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Advogados\china pro\GesObras\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.csprojResolveAssemblyReference.cache
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.csproj.GesObras.exe.config
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.AboutBox1.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.actpendentes.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.addprodutos.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.Cadobras.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.Categoriasc.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.Descregi.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.entradas.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.Form1.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.frmAddservicObras.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.frmescritorioas.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.frmfornecidore.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.frm_updaeDetalhes.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.lisObras.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.loginFom.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.MDIParent1.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.produtoscad.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.Properties.Resources.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.receberpro.resources
+C:\Advogados\china pro\GesObras\obj\Debug\Gescom.Registo.form_registo.resources
+C:\Advogados\china pro\GesObras\obj\Debug\Gescom.Registo.frm_criasenha.resources
+C:\Advogados\china pro\GesObras\obj\Debug\Gescom.Registo.frm_detalhes_registo.resources
+C:\Advogados\china pro\GesObras\obj\Debug\Gescom.Registo.frm_gerar_senhas.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.Requiform.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.requizicoess.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.splashBog.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.uploadProdutos.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.userfom.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.vercassabass.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.vercompras.resources
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.csproj.GenerateResource.Cache
+C:\Advogados\china pro\GesObras\obj\Debug\RdlCompile.cache
+C:\Advogados\china pro\GesObras\obj\Debug\RdlCompile.compiled
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.exe
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.pdb
+C:\Advogados\china pro\GesObras\bin\Debug\GesObras.exe.config
+C:\Advogados\china pro\GesObras\bin\Debug\dbges.dll.config
+C:\Advogados\china pro\GesObras\bin\Debug\gesInvent.exe.config
+C:\Advogados\china pro\GesObras\bin\Debug\gesreport.exe.config
+C:\Advogados\china pro\GesObras\bin\Debug\sisfince.exe.config
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.csproj.AssemblyReference.cache
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.exe.config
+C:\Advogados\china pro\GesObras\obj\Debug\GesObras.csproj.CoreCompileInputs.cache
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\GesHonorario.exe
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\dbges.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\EntityFramework.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\ExcelDataReader.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\gesInvent.exe
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\gesreport.exe
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\sisfince.exe
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\QuickStart.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\BarcodeLib.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\DGV Printer.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\RadControlSpy.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\dbges.pdb
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\dbges.dll.config
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\gesInvent.pdb
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\gesInvent.exe.config
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\gesreport.pdb
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\gesreport.exe.config
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\sisfince.pdb
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\sisfince.exe.config
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\EntityFramework.xml
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\ExcelDataReader.pdb
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\ExcelDataReader.xml
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.xml
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Desktop\china pro\GesObras\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.csproj.AssemblyReference.cache
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.exe.config
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.AboutBox1.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.actpendentes.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.addprodutos.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.Cadobras.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.Categoriasc.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.Descregi.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.entradas.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.Form1.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.frmAddservicObras.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.frmescritorioas.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.frmfornecidore.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.frm_updaeDetalhes.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.lisObras.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.loginFom.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.MDIParent1.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.produtoscad.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.Properties.Resources.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.receberpro.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\Gescom.Registo.form_registo.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\Gescom.Registo.frm_criasenha.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\Gescom.Registo.frm_detalhes_registo.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\Gescom.Registo.frm_gerar_senhas.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.Requiform.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.requizicoess.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.splashBog.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.uploadProdutos.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.userfom.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.vercassabass.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.vercompras.resources
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.csproj.GenerateResource.cache
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\RdlCompile.cache
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\RdlCompile.compiled
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.csproj.CoreCompileInputs.cache
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.exe
+C:\Users\FLD\Desktop\china pro\GesObras\obj\Debug\GesObras.pdb
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\GesObras.exe.config
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\GesObras.exe
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\GesObras.pdb
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\dbges.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\EntityFramework.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\GesHonorario.exe
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesInvent.exe
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesreport.exe
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\sisfince.exe
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\QuickStart.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\BarcodeLib.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\DGV Printer.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\RadControlSpy.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\dbges.pdb
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\dbges.dll.config
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\GesHonorario.pdb
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\GesHonorario.exe.config
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesInvent.pdb
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesInvent.exe.config
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesreport.pdb
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesreport.exe.config
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\sisfince.pdb
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\sisfince.exe.config
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\EntityFramework.xml
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.pdb
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.xml
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.xml
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.csproj.AssemblyReference.cache
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.exe.config
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.AboutBox1.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.actpendentes.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.addprodutos.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.Cadobras.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.Categoriasc.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.Descregi.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.entradas.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.Form1.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.frmAddservicObras.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.frmescritorioas.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.frmfornecidore.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.frm_updaeDetalhes.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.lisObras.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.loginFom.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.MDIParent1.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.produtoscad.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.Properties.Resources.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.receberpro.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\Gescom.Registo.form_registo.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\Gescom.Registo.frm_criasenha.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\Gescom.Registo.frm_detalhes_registo.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\Gescom.Registo.frm_gerar_senhas.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.Requiform.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.requizicoess.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.splashBog.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.uploadProdutos.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.userfom.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.vercassabass.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.vercompras.resources
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.csproj.GenerateResource.cache
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\RdlCompile.cache
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\RdlCompile.compiled
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.csproj.CoreCompileInputs.cache
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.csproj.CopyComplete
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.exe
+C:\Users\FLD\Videos\china pro\GesObras\obj\Debug\GesObras.pdb

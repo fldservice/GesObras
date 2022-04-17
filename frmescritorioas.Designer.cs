@@ -55,6 +55,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.empresaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
             // contactoLabel
@@ -123,7 +124,7 @@
             this.contactoTextBox.Location = new System.Drawing.Point(363, 114);
             this.contactoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.contactoTextBox.Name = "contactoTextBox";
-            this.contactoTextBox.Size = new System.Drawing.Size(192, 23);
+            this.contactoTextBox.Size = new System.Drawing.Size(192, 20);
             this.contactoTextBox.TabIndex = 4;
             // 
             // descricaoTextBox
@@ -131,7 +132,7 @@
             this.descricaoTextBox.Location = new System.Drawing.Point(363, 142);
             this.descricaoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.descricaoTextBox.Name = "descricaoTextBox";
-            this.descricaoTextBox.Size = new System.Drawing.Size(192, 23);
+            this.descricaoTextBox.Size = new System.Drawing.Size(192, 20);
             this.descricaoTextBox.TabIndex = 8;
             // 
             // enderessoTextBox
@@ -139,7 +140,7 @@
             this.enderessoTextBox.Location = new System.Drawing.Point(363, 174);
             this.enderessoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.enderessoTextBox.Name = "enderessoTextBox";
-            this.enderessoTextBox.Size = new System.Drawing.Size(192, 23);
+            this.enderessoTextBox.Size = new System.Drawing.Size(192, 20);
             this.enderessoTextBox.TabIndex = 10;
             // 
             // nome_escritorioTextBox
@@ -147,7 +148,7 @@
             this.nome_escritorioTextBox.Location = new System.Drawing.Point(363, 46);
             this.nome_escritorioTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.nome_escritorioTextBox.Name = "nome_escritorioTextBox";
-            this.nome_escritorioTextBox.Size = new System.Drawing.Size(192, 23);
+            this.nome_escritorioTextBox.Size = new System.Drawing.Size(192, 20);
             this.nome_escritorioTextBox.TabIndex = 16;
             // 
             // nuiteTextBox
@@ -155,7 +156,7 @@
             this.nuiteTextBox.Location = new System.Drawing.Point(363, 78);
             this.nuiteTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.nuiteTextBox.Name = "nuiteTextBox";
-            this.nuiteTextBox.Size = new System.Drawing.Size(192, 23);
+            this.nuiteTextBox.Size = new System.Drawing.Size(192, 20);
             this.nuiteTextBox.TabIndex = 18;
             // 
             // pictureBox1
@@ -207,7 +208,7 @@
             // frmescritorioas
             // 
             this.AcceptButton = this.radButton1;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(601, 281);
             this.Controls.Add(this.radLabel1);
@@ -229,12 +230,19 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "frmescritorioas";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
             this.Text = "escritorios";
+            this.ThemeName = "Office2010Silver";
+            this.Load += new System.EventHandler(this.frmescritorioas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.empresaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

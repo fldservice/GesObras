@@ -11,7 +11,7 @@ using dbges;
 
 namespace GesObras
 {
-    public partial class entradas : Form
+    public partial class entradas : Telerik.WinControls.UI.RadForm 
     {
         private teteenginhierEntities tete =new teteenginhierEntities();
         public entradas()
@@ -36,89 +36,38 @@ namespace GesObras
         {
 
         }
-        public void destruirstok(int idproduto, int saldo, double area)
+        public Boolean construir(int idproduto, int qtys, double area)
         {
 
             try
             {
-                //verficar se o produto esta permitido a ser controlado ou nao
-
-                var emp = tete.produtos.Where(s => s.idprodutos == idproduto).FirstOrDefault();
-
-                if (saldo > 0 && area <= 0)
+                var contar = tete.Precos_pro.Where(t => t.idpro == idproduto).Count();
+                if (contar != 0)
                 {
 
 
-                    //se o produto estiver permitido sera retirado a aquantidade vendida
-                    var py = tete.produtos.Where(p => p.idprodutos == idproduto).FirstOrDefault();
 
-                    py.Quatidade += saldo;
+                    var verpre = tete.Precos_pro.Where(t => t.idpro == idproduto).OrderByDescending(i => i.preco_pro).FirstOrDefault();
+
+                    verpre.qtypro += qtys;
                     tete.SaveChanges();
+
                 }
-                else if (saldo <= 0 && area > 0)
+                else
                 {
-
-                    // se o capo de areas for prienchido realizada estas funcoes
-
-                    double areas = (Double)emp.Areatotal;//buscar areatotal actual
-                                                         //  decimal area = decimal.Parse(TextBox3.Text); ;// verficar a area requeriad
-                    if (areas > area)
-                    {
-                        // decimal val = decimal.Parse("0." + TextBox3.Text);
-
-                        decimal presai = decimal.Parse(emp.precos.ToString());
-                        //decimal prexoto = val * presai;//obter o valor total
-                        try
-                        {
-
-
-                            //  var pro = tete.produtos.Where(id => id.idprodutos == cl).FirstOrDefault();
-                            /*
-                             * iniciar aginastica
-                            */
-                            //area totao menos area introduzida=area restante
-                            int ater = int.Parse(emp.Areatotal.ToString()) - int.Parse(area.ToString());
-
-                            //obter o a prexo de saida
-                            // decimal prexosaida = (decimal)(area * pro.prexototal) / (decimal)pro.Areatotal;
-
-                            //obeter quantidade numerica removida
-                            Double quant = (double)(area *(Double) emp.Quatidade) / (double)emp.Areatotal;
-
-                            //obter a quantidade rstante
-                            int qrem = int.Parse(emp.Quatidade.ToString()) -(int) quant;
-
-
-
-                            //obert o valor pela quantidade removida
-                            // double valorremo = qrem * (double)presai;
-
-                            emp.Quatidade = qrem;
-                            emp.Areatotal = ater;
-                            // emp.prexototal = (decimal)qrem * pro.precos;
-                            tete.SaveChanges();
-                        }
-                        catch (Exception ex)
-                        {
-
-                        }
-
-                        //else if (emp.controlStock.Equals("Nao"))
-                        //{
-                        //    //caso contrario nada se faz
-
-                        //}
-                        //  int saldo = int.Parse(quantidadeRadTextBox.Text) - int.Parse(radTextBox3.Text);
-                    }
+                   MessageBox.Show("Este produto nao tem preços definido\n insira pelo menos um preço", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    return false;
+                    
                 }
             }
-            catch
+            catch (Exception ex)
             {
 
-                MessageBox.Show("Nao foi possivel atualizar o estoke");
+                MessageBox.Show("Problema na iclusao do produto\n"+ex.Message , "Erro", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                return false;
             }
 
-
+            return true;
         }//retirar a Quantidade no stock
 
 
@@ -141,32 +90,35 @@ namespace GesObras
                         // var refe = dataGridView2[1, i].Value.ToString();
                         String nome = Convert.ToString(dataGridView2[1, i].Value);
 
-                      //  int ares = int.Parse(dataGridView2[3, i].Value.ToString());
+                       decimal ares = decimal.Parse(dataGridView2[3, i].Value.ToString());
                         int idpro = Convert.ToInt16(dataGridView2[4, i].Value);//obter o numero do Produto (ID)
                                                                                // DateTime data = Convert.ToDateTime(DateTime.Now.ToShortDateString());
                                                                                // Decimal total = Convert.ToDecimal(dataGridView1[6, i].Value); //* Convert.ToDecimal(detalhes_de_VendaDataGridView[3, 1].Value);
                         int stok = Convert.ToInt32(dataGridView2[2, i].Value);
 
                         ///iserir dados na tabela item pedidos
-                        dbges.entradas deta = new dbges.entradas()
+                        if (construir(idpro, stok, 0) ==true )
                         {
+                            dbges.entradas deta = new dbges.entradas();
+
                             // idproduto = idvenda,
-                            qantidade = quant,
+                            deta.qantidade = quant;
 
                             //item_preco = total,
-                            idproduto = idpro,
+                            deta.idproduto = idpro;
                             //referencias_ped = refe,
                             //  areass = ares,
-                            otrasinformacaoes = radTextBox2.Text,
-                            dataentrada = DateTime.Now
+                            deta.precoss = ares;
+                            deta.otrasinformacaoes = radTextBox2.Text;
+                            deta.dataentrada = DateTime.Now;
 
 
-                        };
-                        tete.entradas.Add(deta);
-                        tete.SaveChanges();
+                           
+                            tete.entradas.Add(deta);
+                            tete.SaveChanges();
+                        }
 
-                        destruirstok(idpro, stok, 0);
-
+                       
                     }
 
                 }
@@ -202,8 +154,9 @@ namespace GesObras
                     dataGridView2["id", row].Value = pr.idprodutos;
                     dataGridView2["Categoria", row].Value = pr.proCategorias;
                     dataGridView2["Produto", row].Value = pr.produtos_nome;
+                     dataGridView2["Area", row].Value = 0;
 
-                    dataGridView2.Refresh();
+                dataGridView2.Refresh();
                 
                     // radTextBox1.Text = "";
                     // radTextBox1.Focus();

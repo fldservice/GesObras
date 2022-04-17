@@ -11,7 +11,7 @@ using dbges;
 
 namespace GesObras
 {
-    public partial class requizicoess : Form
+    public partial class requizicoess : Telerik.WinControls.UI.RadForm 
     {
         private teteenginhierEntities t = new teteenginhierEntities();
         public requizicoess()
@@ -23,12 +23,13 @@ namespace GesObras
         {
             Requiform re = new Requiform();
             re.ShowDialog();
-viewrequizicaoBindingSource.DataSource = t.requizicao.ToList();
+               viewrequizicaoBindingSource.DataSource = t.viewrequizicao.ToList();
         }
 
         private void requizicoess_Load(object sender, EventArgs e)
         {
             viewreqfornBindingSource.DataSource = t.requizicao.ToList();
+            radDropDownList1.SelectedIndex = 0;
         }
         private int idobra;
         private string estado;
@@ -36,6 +37,7 @@ viewrequizicaoBindingSource.DataSource = t.requizicao.ToList();
         {
             try
             {
+                idobra = 0;
                 idobra = int.Parse(radGridView1.CurrentRow.Cells[0].Value.ToString());
 
                 viewrequizicaoBindingSource.DataSource = t.viewrequizicao.Where(t => t.idrequiz == idobra).ToList();
@@ -55,7 +57,7 @@ viewrequizicaoBindingSource.DataSource = t.requizicao.ToList();
         private DateTime d1, d2, d3;
         private void radDateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            d1 = DateTime.Parse(radDateTimePicker1.Value.ToShortDateString());
+            d1 = DateTime.Parse(radDateTimePicker1.Text);
             lista();
         }
 
@@ -96,6 +98,7 @@ viewrequizicaoBindingSource.DataSource = t.requizicao.ToList();
                 r.estadore = "Cancelado";
                 t.SaveChanges();
                 MessageBox.Show("Requizicao camcelado  com sucesso", "sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                viewreqfornBindingSource.DataSource = t.requizicao.ToList();
             }
             else
             {
@@ -110,6 +113,7 @@ viewrequizicaoBindingSource.DataSource = t.requizicao.ToList();
             gesreport.ordecompras op = new gesreport.ordecompras();
             op.idreq = idobra;
             op.ShowDialog();
+            viewreqfornBindingSource.DataSource = t.requizicao.ToList();
         }
 
         private void viewrequizicaoBindingSource_CurrentChanged(object sender, EventArgs e)
@@ -129,6 +133,9 @@ viewrequizicaoBindingSource.DataSource = t.requizicao.ToList();
                 receberpro op = new receberpro();
                 op.idreq = idobra;
                 op.ShowDialog();
+                viewreqfornBindingSource.DataSource = t.requizicao.ToList();
+                viewrequizicaoBindingSource.DataSource = t.viewrequizicao.Where(t => t.idrequiz == idobra).ToList();
+
             }
             else
             {
@@ -145,12 +152,27 @@ viewrequizicaoBindingSource.DataSource = t.requizicao.ToList();
                 actpendentes op = new actpendentes();
                 op.idre = idviewreq;
                 op.ShowDialog();
+                viewreqfornBindingSource.DataSource = t.requizicao.ToList();
+                viewrequizicaoBindingSource.DataSource = t.viewrequizicao.Where(t => t.idrequiz == idobra).ToList();
+
+                buscar();
             }
         }
 
         private void radGridView3_Click(object sender, EventArgs e)
         {
-            idviewreq = int.Parse(radGridView3 .CurrentRow .Cells [0].Value .ToString());
+            try
+            {
+                idviewreq = 0;
+                idviewreq = int.Parse(radGridView3.CurrentRow.Cells[0].Value.ToString());
+                viewrequizicaoBindingSource.DataSource = t.viewrequizicao.Where(t => t.idrequiz == idobra).ToList();
+
+            }
+            catch (Exception)
+            {
+
+                return;
+            }
         }
 
         private void consumidoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -162,12 +184,28 @@ viewrequizicaoBindingSource.DataSource = t.requizicao.ToList();
                 r.estadore = "Recebido";
                 t.SaveChanges();
                 MessageBox.Show("Requizicao Recebida  com sucesso", "sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                viewreqfornBindingSource.DataSource = t.requizicao.ToList();
             }
             else
             {
                 MessageBox.Show(" Este material ja foi consumido", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Stop);
 
 
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                // buscarnumeros de factura
+                viewreqfornBindingSource.DataSource = t.requizicao.Where(t => t.nfactura.Contains(textBox1.Text)).ToList();
+
+            }
+            catch ( Exception ex)
+            {
+
+                throw;
             }
         }
 
@@ -180,13 +218,13 @@ viewrequizicaoBindingSource.DataSource = t.requizicao.ToList();
             var g = radDropDownList1.SelectedItem.ToString();
             if (g.Equals(""))
             {
-                    viewreqfornBindingSource.DataSource = t.requizicao.Where(t => t.datarequiz >= d1 && t.datarequiz <= d2).ToList();
+                    viewreqfornBindingSource.DataSource = t.requizicao.Where(t => t.datarequiz <= d1 && t.datarequiz <= d2).ToList();
 
             }
             else
             {
 
-                    viewreqfornBindingSource.DataSource = t.requizicao.Where(t => t.datarequiz >= d1 && t.datarequiz <= d2 & t.estadore .Equals(g)).ToList();
+                    viewreqfornBindingSource.DataSource = t.requizicao.Where(t => t.datarequiz <= d1 && t.datarequiz >= d2 & t.estadore .Equals(g)).ToList();
 
             }
             }
@@ -201,8 +239,8 @@ viewrequizicaoBindingSource.DataSource = t.requizicao.ToList();
 
         private void radDateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
-            d2 = DateTime.Parse(radDateTimePicker2.Value.ToShortDateString());
-            lista();
+          //  d2 = DateTime.Parse(radDateTimePicker2.Text);
+          //  lista();
         }
     }
 }

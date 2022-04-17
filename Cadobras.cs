@@ -11,7 +11,7 @@ using dbges;
 
 namespace GesObras
 {
-    public partial class Cadobras : Form
+    public partial class Cadobras : Telerik.WinControls.UI.RadForm 
     {
         private teteenginhierEntities te = new teteenginhierEntities();
         public Cadobras()
@@ -60,12 +60,14 @@ namespace GesObras
             {
                 var contarobra = te.Obrass.Count();
                 Obrass ob = new Obrass();
+                ob.idobras = contarobra + 1;
                 ob.idclient = idclinte;
                 ob.descricao = radTextBox2.Text;
                 ob.localobra = radTextBox3.Text;
                 ob.nivelobra = int.Parse (radDropDownList1 .SelectedItem.ToString());
                 ob.Nobra = contarobra + 1;
                 ob.estado = "Aberta";
+                ob.Consideracoes=radDropDownList2.SelectedItem.ToString();
                 te.Obrass.Add(ob);
                 tblhoras tb = new tblhoras();
                 tb.datarealizacao = DateTime.Now;
@@ -104,6 +106,11 @@ namespace GesObras
                     System.Windows.Forms.MessageBox.Show(ex.Message);
                 }
             }
+        }
+
+        private void Cadobras_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

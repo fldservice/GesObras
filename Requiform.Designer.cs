@@ -66,6 +66,7 @@
             this.splitPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
             // radSplitContainer1
@@ -80,7 +81,7 @@
             // 
             // 
             this.radSplitContainer1.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.radSplitContainer1.Size = new System.Drawing.Size(799, 339);
+            this.radSplitContainer1.Size = new System.Drawing.Size(832, 421);
             this.radSplitContainer1.TabIndex = 0;
             this.radSplitContainer1.TabStop = false;
             this.radSplitContainer1.Text = "radSplitContainer1";
@@ -103,9 +104,9 @@
             // 
             // 
             this.splitPanel1.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel1.Size = new System.Drawing.Size(799, 108);
-            this.splitPanel1.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, -0.1785714F);
-            this.splitPanel1.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, -59);
+            this.splitPanel1.Size = new System.Drawing.Size(832, 135);
+            this.splitPanel1.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, -0.1775148F);
+            this.splitPanel1.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, -66);
             this.splitPanel1.TabIndex = 0;
             this.splitPanel1.TabStop = false;
             this.splitPanel1.Text = "splitPanel1";
@@ -125,7 +126,7 @@
             // radLabel4
             // 
             this.radLabel4.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.radLabel4.Location = new System.Drawing.Point(662, 72);
+            this.radLabel4.Location = new System.Drawing.Point(662, 99);
             this.radLabel4.Name = "radLabel4";
             this.radLabel4.Size = new System.Drawing.Size(14, 21);
             this.radLabel4.TabIndex = 6;
@@ -134,7 +135,7 @@
             // radLabel3
             // 
             this.radLabel3.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.radLabel3.Location = new System.Drawing.Point(612, 73);
+            this.radLabel3.Location = new System.Drawing.Point(619, 99);
             this.radLabel3.Name = "radLabel3";
             this.radLabel3.Size = new System.Drawing.Size(37, 21);
             this.radLabel3.TabIndex = 6;
@@ -154,9 +155,9 @@
             this.radLabel1.Font = new System.Drawing.Font("Segoe UI", 16F);
             this.radLabel1.Location = new System.Drawing.Point(12, 6);
             this.radLabel1.Name = "radLabel1";
-            this.radLabel1.Size = new System.Drawing.Size(114, 33);
+            this.radLabel1.Size = new System.Drawing.Size(120, 33);
             this.radLabel1.TabIndex = 5;
-            this.radLabel1.Text = "Fornecidor";
+            this.radLabel1.Text = "Fornecedor";
             // 
             // radTextBox2
             // 
@@ -207,28 +208,27 @@
             this.radButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.radButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radButton1.Image = global::GesObras.Properties.Resources.checkmark_32px;
-            this.radButton1.Location = new System.Drawing.Point(612, 22);
+            this.radButton1.Location = new System.Drawing.Point(645, 54);
             this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(130, 44);
+            this.radButton1.Size = new System.Drawing.Size(130, 39);
             this.radButton1.TabIndex = 3;
             this.radButton1.Text = "Salvar";
-            this.radButton1.ThemeName = "Office2010Black";
+            this.radButton1.ThemeName = "Office2010Silver";
             this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // splitPanel2
             // 
             this.splitPanel2.Controls.Add(this.dataGridView2);
             this.splitPanel2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.splitPanel2.Location = new System.Drawing.Point(0, 111);
+            this.splitPanel2.Location = new System.Drawing.Point(0, 138);
             this.splitPanel2.Name = "splitPanel2";
             // 
             // 
             // 
             this.splitPanel2.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel2.Size = new System.Drawing.Size(799, 228);
-            this.splitPanel2.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, 0.1785714F);
-            this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, -88);
+            this.splitPanel2.Size = new System.Drawing.Size(832, 283);
+            this.splitPanel2.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, 0.1775148F);
+            this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, -81);
             this.splitPanel2.TabIndex = 1;
             this.splitPanel2.TabStop = false;
             this.splitPanel2.Text = "splitPanel2";
@@ -246,7 +246,7 @@
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.Location = new System.Drawing.Point(0, 0);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(799, 228);
+            this.dataGridView2.Size = new System.Drawing.Size(832, 283);
             this.dataGridView2.TabIndex = 1;
             this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             // 
@@ -298,9 +298,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(799, 339);
+            this.ClientSize = new System.Drawing.Size(832, 421);
             this.Controls.Add(this.radSplitContainer1);
             this.Name = "Requiform";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Requiform";
             this.Load += new System.EventHandler(this.Requiform_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).EndInit();
@@ -322,6 +328,7 @@
             this.splitPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
         }

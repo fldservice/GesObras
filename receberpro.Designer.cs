@@ -41,13 +41,13 @@
             this.nomeTextBox = new System.Windows.Forms.TextBox();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.viewrequizicaoDataGridView = new System.Windows.Forms.DataGridView();
-            this.viewrequizicaoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.idpprod = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.proCategorias = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.produtos_nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tamanhos_pro = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.viewrequizicaoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             nomeLabel = new System.Windows.Forms.Label();
             nuitLabel = new System.Windows.Forms.Label();
             nfacturaLabel = new System.Windows.Forms.Label();
@@ -69,9 +69,9 @@
             nomeLabel.Font = new System.Drawing.Font("Segoe UI", 10F);
             nomeLabel.Location = new System.Drawing.Point(7, 41);
             nomeLabel.Name = "nomeLabel";
-            nomeLabel.Size = new System.Drawing.Size(77, 19);
+            nomeLabel.Size = new System.Drawing.Size(81, 19);
             nomeLabel.TabIndex = 0;
-            nomeLabel.Text = "Fornecidor:";
+            nomeLabel.Text = "Fornecedor:";
             // 
             // nuitLabel
             // 
@@ -145,13 +145,12 @@
             // radButton1
             // 
             this.radButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radButton1.Image = global::GesObras.Properties.Resources.checkmark_32px;
             this.radButton1.Location = new System.Drawing.Point(588, 57);
             this.radButton1.Name = "radButton1";
             this.radButton1.Size = new System.Drawing.Size(130, 37);
             this.radButton1.TabIndex = 6;
             this.radButton1.Text = "Confirmar";
-            this.radButton1.ThemeName = "Office2010Black";
+            this.radButton1.ThemeName = "Office2010Silver";
             this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // nfacturaTextBox
@@ -200,6 +199,7 @@
             // viewrequizicaoDataGridView
             // 
             this.viewrequizicaoDataGridView.AllowUserToAddRows = false;
+            this.viewrequizicaoDataGridView.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.viewrequizicaoDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.viewrequizicaoDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idpprod,
@@ -213,10 +213,6 @@
             this.viewrequizicaoDataGridView.Name = "viewrequizicaoDataGridView";
             this.viewrequizicaoDataGridView.Size = new System.Drawing.Size(733, 342);
             this.viewrequizicaoDataGridView.TabIndex = 0;
-            // 
-            // viewrequizicaoBindingSource
-            // 
-            this.viewrequizicaoBindingSource.DataSource = typeof(dbges.viewrequizicao);
             // 
             // idpprod
             // 
@@ -248,6 +244,10 @@
             this.valor.HeaderText = "Preco";
             this.valor.Name = "valor";
             // 
+            // viewrequizicaoBindingSource
+            // 
+            this.viewrequizicaoBindingSource.DataSource = typeof(dbges.viewrequizicao);
+            // 
             // receberpro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -255,6 +255,7 @@
             this.ClientSize = new System.Drawing.Size(733, 450);
             this.Controls.Add(this.radSplitContainer1);
             this.Name = "receberpro";
+            this.ShowIcon = false;
             this.Text = "receberpro";
             this.Load += new System.EventHandler(this.receberpro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).EndInit();

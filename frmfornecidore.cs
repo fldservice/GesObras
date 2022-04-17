@@ -12,7 +12,7 @@ using dbges;
 
 namespace GesObras
 {
-    public partial class frmfornecidore : Form
+    public partial class frmfornecidore : Telerik.WinControls.UI.RadForm
     {
         private teteenginhierEntities tete = new teteenginhierEntities();
         public frmfornecidore()

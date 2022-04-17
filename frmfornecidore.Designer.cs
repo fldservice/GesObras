@@ -86,6 +86,7 @@
             this.splitPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGridView1.MasterTemplate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
             // contactoLabel
@@ -194,7 +195,7 @@
             this.radButton2.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.radButton2.Location = new System.Drawing.Point(145, 252);
             this.radButton2.Name = "radButton2";
-            this.radButton2.Size = new System.Drawing.Size(101, 34);
+            this.radButton2.Size = new System.Drawing.Size(122, 34);
             this.radButton2.TabIndex = 17;
             this.radButton2.Text = "Salvar";
             this.radButton2.Click += new System.EventHandler(this.radButton2_Click);
@@ -202,9 +203,10 @@
             // radButton1
             // 
             this.radButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.radButton1.Image = global::GesObras.Properties.Resources.plus_32px;
             this.radButton1.Location = new System.Drawing.Point(23, 252);
             this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(101, 34);
+            this.radButton1.Size = new System.Drawing.Size(116, 34);
             this.radButton1.TabIndex = 17;
             this.radButton1.Text = "Novo";
             this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
@@ -417,6 +419,7 @@
             this.radGridView1.Size = new System.Drawing.Size(387, 269);
             this.radGridView1.TabIndex = 0;
             this.radGridView1.Text = "radGridView1";
+            this.radGridView1.ThemeName = "Office2010Silver";
             // 
             // idfornTextBox
             // 
@@ -433,7 +436,13 @@
             this.ClientSize = new System.Drawing.Size(696, 313);
             this.Controls.Add(this.radSplitContainer1);
             this.Name = "frmfornecidore";
-            this.Text = "frmfornecidore";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
+            this.ShowIcon = false;
+            this.Text = "fornecidor";
+            this.ThemeName = "Office2010Silver";
             this.Load += new System.EventHandler(this.frmfornecidore_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).EndInit();
             this.radSplitContainer1.ResumeLayout(false);
@@ -457,6 +466,7 @@
             this.splitPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radGridView1.MasterTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
         }

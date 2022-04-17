@@ -23,12 +23,22 @@ namespace GesObras
         private int qtyserto;
         private void actpendentes_Load(object sender, EventArgs e)
         {
-            var verre = te.viewrequizicao.Where(P => P.iddRequi == idre).FirstOrDefault();
-            qtyserto =(int) verre.qty - (int)verre.qtyreceb;
+            try
+            {
+ var verre = te.viewrequizicao.Where(P => P.iddRequi == idre).FirstOrDefault();
+            //
+            qtyserto = (int)verre.qtyreceb;
             radTextBox1.Text = qtyserto.ToString();
 
             label2.Text = verre.produtos_nome;
             idpro =(int) verre.idpprod;
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("O produto ainda nao foi dado entrada");
+            }
+           
         }
         public void destruirstok(int idproduto, int qty)//actualizar o stoque
         {
@@ -44,13 +54,14 @@ namespace GesObras
 
 
                     //se o produto estiver permitido sera retirado a aquantidade vendida
-                    var py = te.produtos.Where(p => p.idprodutos == idproduto).FirstOrDefault();
-                    int qt = (int)py.Quatidade;
-                    py.Quatidade = qt + qty;
-                    te.SaveChanges();
+                    var py = te.Precos_pro.Where(p => p.idpro == idproduto).OrderByDescending(x=>x.idprecoPro).FirstOrDefault();
+                    int qt = (int)py.qtypro;
+                  py.qtypro = qt + qty;
+             te.SaveChanges();
                 }
-               
 
+                MessageBox.Show("Actualizado com sucesso" );
+                this.Dispose();
 
             }
             catch (Exception ex)
@@ -69,7 +80,7 @@ namespace GesObras
 
            
             var dt = te.detalhesderequiza.Where(t => t.iddRequi == idre && t.idpprod == idpro).FirstOrDefault();
-            //}
+            //}   
             int quant = int.Parse(radTextBox1.Text);
             int qtarequizi = (int)qtyserto;
             if (qtarequizi == quant)
@@ -86,7 +97,7 @@ namespace GesObras
             }
             else
             {
-                MessageBox.Show(dt.produtos.produtos_nome + " Quantidade nao requizidate", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show( " Quantidade não requizitado", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 return;
             }
                 destruirstok(idpro ,quant );

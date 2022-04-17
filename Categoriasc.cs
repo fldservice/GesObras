@@ -11,7 +11,7 @@ using dbges;
 
 namespace GesObras
 {
-    public partial class Categoriasc : Form
+    public partial class Categoriasc : Telerik.WinControls.UI.RadForm
     {
         private teteenginhierEntities t = new teteenginhierEntities();
         public Categoriasc()
@@ -35,6 +35,14 @@ namespace GesObras
                     categoria c = new categoria();
                     c.proCategorias = proCategoriasTextBox.Text;
                     c.Descricao = descricaoTextBox.Text;
+                    if (checkBox1.Checked == true)
+                    {
+                        c.activoTangivel = "Sim";
+                    }
+                    else
+                    {
+                        c.activoTangivel = "Nao";
+                    }
                     t.categoria.Add(c);
                     t.SaveChanges();
                 }
@@ -43,10 +51,20 @@ namespace GesObras
                     categoria c =t.categoria .Where(f=>f.idcate==id ).FirstOrDefault();
                     c.proCategorias = proCategoriasTextBox.Text;
                     c.Descricao = descricaoTextBox.Text;
-                   
+                    if (checkBox1.Checked == true)
+                    {
+                        c.activoTangivel = "true";
+                    }
+                    else
+                    {
+                        c.activoTangivel = "false";
+                    }
+
                     t.SaveChanges();
+                    radLabel2.Text =c.proCategorias+ " Salvo com sucesso";
                 }
-            MessageBox.Show("Salvo com sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+          //  MessageBox.Show("", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
  }
             catch (Exception ex)
             {
@@ -59,6 +77,11 @@ namespace GesObras
         private void Categoriasc_Load(object sender, EventArgs e)
         {
             categoriaBindingSource.DataSource = t.categoria.ToList();
+        }
+
+        private void categoriaDataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+          //  checkBox1.Checked =bool.Parse ( categoriaDataGridView.CurrentRow.Cells[2].Value.ToString());
         }
     }
 }

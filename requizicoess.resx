@@ -117,6 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAtBJREFUaEPt
+        mM9rE0EUx0elKghevCniwT9AoWI9+6PVWq0gerHFHwdtLq0iiGCFHEp2JhHEmP0RRKtH41n0rBcR1IPg
+        SUSKqSgFURAFxXVm84r7JpNNdncmJLIf+ELId9/7vkdnl01JRkZGRg8xdWKM5CbekZkzPqGzPnGo0E+u
+        t8S1LpJ8fiVc2aPkJhf4An6gab5EY4GQ2C24skfJTXz4t8BpxQLBErvg6o4oPR31w4KvDdE4QnUyfSp8
+        hLBsehuu7ojuLqDCtoalJZZItToAbltSLeCxHVK2Tzy6DdwOqdVW8cJPUqMD4LYl1QIufYBz2SNwYmJT
+        Dzeid8BpQh64naCsmWpxK8/5jXOtveDGpML24Eb0C6nlV4OLUA0ZJShrxrZuSJkvwUmA6hh5hVFwEaoh
+        owRlmEphA8/4jvJcNgluQuRj5NJ5cBCqIaMEZRiXXkZZDluI8+BQozpG5fIacFvS0cBhxNF0aB1l2fQS
+        uClQP40OgtuS2As47KSU8ZWU8+vBTYnDXNzcugtOS2It4PsreMZrnEGvg6sB19otNW97jGIt4LF9Uv9f
+        pHJtC7gaaByjcAC/mYtj4KbHoY9Rb5veB0cj4YCG7oGTDvGKIPcWrxLakUPETTafXwtucsRjGfW1noCj
+        GRQCcuk5cJNhF7fzPj9wT+souJoJh5jTm+CJZASH/pHCDMiagjQDmF9giZRK6yDNAGYXqPNH5yFIMoS8
+        gLGzaor/YIFvaAF7bjM4fYJDn+EF2EPizm0Ctw9waQ4tYEJGEW+fDn3VFKpTxrnJNvK/xAtluA51BfEb
+        VbwDOfQ5l/gHsHqYJOomg4NnB4b2j1tDI+PvA/HP4juwI0lTqw0YwEcaPlIAO5I0tdrgoYsi+Pj5Wf/Y
+        zJXlQRbBjiRNrTZ44MdgiAtXg0HiDJGmVht9f4SWb8SdI4c/C4nPcW/iJLUZGRkZvQAhfwHLQIRKuB1X
+        7AAAAABJRU5ErkJggg==
+</value>
+  </data>
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>594, 17</value>
   </metadata>
@@ -129,10 +148,7 @@
   <metadata name="viewrequizicaoBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
   </metadata>
-  <metadata name="office2010BlackTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>414, 23</value>
-  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>136</value>
+    <value>152</value>
   </metadata>
 </root>

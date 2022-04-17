@@ -31,7 +31,7 @@ namespace GesObras
 
 
                     // int idvenda = Convert.ToInt16(idobra);
-                    int quant = Convert.ToInt16(viewrequizicaoDataGridView[4, i].Value);
+                    int quant = Convert.ToInt16(viewrequizicaoDataGridView[0, i].Value);
                     if (quant != 0)
                     {
                         int qty = Convert.ToInt16(viewrequizicaoDataGridView[4, i].Value);
@@ -42,44 +42,16 @@ namespace GesObras
                         //  int ares = int.Parse(dataGridView2[3, i].Value.ToString());
                         int idpro = Convert.ToInt16(viewrequizicaoDataGridView[0, i].Value);//obter o numero do Produto (ID)
                                                                                
-                        int total = Convert.ToInt32(viewrequizicaoDataGridView[5, i].Value);
+                        decimal total = Convert.ToDecimal(viewrequizicaoDataGridView[5, i].Value.ToString());
 
-                        ///iserir dados na tabela item pedidos
-                        detalhesderequiza dt = tete.detalhesderequiza.Where(t => t.idrequiz == idreq && t.idpprod == idpro).FirstOrDefault();
-                        //}
-
-                        int qtarequizi =(int) dt.qty;
-                        if (qtarequizi == quant)
+                        
+                        if (construir(idpro, qty, total) ==true)
                         {
-                            dt.estados = "Recebido";
-                            dt.qtyreceb = quant;
+
+                        registrardetalhe(qty, idpro );
                         }
-                        else if
-                            (qtarequizi > quant)
-                        {
-                            dt.estados = "Pendente";
-                            dt.qtyreceb = qtarequizi - quant;
-                        }
-                        else
-                        {
-                            MessageBox.Show(dt.produtos.produtos_nome+" Quantidade nao requizidate","Erro",MessageBoxButtons.OK,MessageBoxIcon.Stop);
-                            return;
-                        }
-                     
-                        //dt.qtyreceb=
 
-                    //    valor = total,
-                    //    idpprod = idpro,
-                    //    //referencias_ped = refe,
-                    //    //  areass = ares,
-                    //   // dataentrada = DateTime.Now
-
-
-                     
-
-                     tete.SaveChanges();
-
-                    destruirstok(idpro, qty, 0);
+                    // destruirstok(idpro, qty, 0);
                        
                     }
                     
@@ -95,6 +67,139 @@ namespace GesObras
             }
 
             
+        }
+        //registrar as ocorencias
+        void registrardetalhe(int quant,int idpro)
+        {
+            ///iserir dados na tabela item pedidos
+            detalhesderequiza dt = tete.detalhesderequiza.Where(t => t.idrequiz == idreq && t.idpprod == idpro).FirstOrDefault();
+            //}
+
+            int qtarequizi = (int)dt.qty;
+            if (quant == 0)
+            {
+                dt.estados = "Pendente";
+                dt.qtyreceb = 0;
+            }
+               else  if (qtarequizi == quant)
+            {
+                dt.estados = "Recebido";
+                dt.qtyreceb = quant;
+            }
+            else if
+                (qtarequizi > quant)
+            {
+                dt.estados = "Pendente";
+                dt.qtyreceb = qtarequizi - quant;
+            }
+            else 
+            {
+               
+                MessageBox.Show( " Quantidade nao requizitado", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                return;
+            }
+
+            
+
+            tete.SaveChanges();
+        }
+        //fixar avariavel constate da densidade
+        private const int densidade = 7850;
+        private const Int64 metros = 1000000000;
+        public Boolean construir(int idproduto, int qtys, Decimal precos)
+        {
+
+            try
+            {
+                // verficar se tem algum preco registrado
+                var contar = tete.Precos_pro.Where(t => t.idpro == idproduto).Count();
+                if (contar != 0)
+                {
+                    //colocado o ultimo preco na tabel de produto
+                    var produtoss = tete.produtos.FirstOrDefault(f => f.idprodutos == idproduto);
+                    Boolean resposta = false;
+                    //lista todos o precos e as quantidades do produto
+                    var listar = tete.Precos_pro.Where(t => t.idpro == idproduto).ToList();
+                    foreach (var item in listar)
+                    {
+                        // se o preco inserido fo iguar a alguns dos precos existente ele deve somente actualizar aquele produto
+                        if (item.preco_pro == precos)
+                        {
+                            var verpre = tete.Precos_pro.Where(t => t.idprecoPro == item.idprecoPro).FirstOrDefault();
+                            verpre.qtypro += qtys;
+
+                            produtoss.prexo_venda = precos;
+                            tete.SaveChanges();
+                            resposta = true;
+                            break;
+                        }
+                        //caso contrario de incluir uma nova linha de preco e qty
+                        else
+                        {
+                            resposta = false;
+                            continue;
+                        }     
+
+                       
+                    }
+                    if (resposta ==false )
+                    {
+                        var produt = tete.produtos.Where(v => v.idprodutos == idproduto).FirstOrDefault();
+
+                        var verAre = produt.aRea.ToString();
+                        decimal calarea=0, kilograms = 0;
+                        if (verAre != "")
+                        {
+                             calarea = decimal.Parse(produt.aRea.ToString());
+                            //buscar o peso em kilogramas de cada chapa
+                            kilograms = decimal.Parse(produt.kilosingle.ToString());
+
+                        }
+
+                        Precos_pro pr = new Precos_pro();
+                        pr.idpro = idproduto;
+                        pr.preco_pro = precos;
+                        pr.areatotal = calarea * qtys;
+                        pr.Kilogramas = kilograms * qtys;
+                        pr.qtypro = qtys;
+                        pr.Observacao = nomeTextBox.Text;
+                        tete.Precos_pro.Add(pr);
+                        produtoss.prexo_venda = precos;
+                        tete.SaveChanges();
+                        
+                    }
+
+                }
+                else
+                {
+                    //MessageBox.Show("Este produto nao tem preços definido\n insira pelo menos um preço", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    var produt = tete.produtos.Where(v => v.idprodutos == idproduto).FirstOrDefault();
+
+                    decimal calarea = (decimal)produt.aRea;
+                    //buscar o peso em kilogramas de cada chapa
+                    Decimal kilograms = (decimal)produt.kilosingle;
+                    //se o produto nao tiver nenhum preco o sitema vai cria 
+                    Precos_pro pr = new Precos_pro();
+                    pr.idpro = idproduto;
+                    pr.preco_pro = precos;
+                    pr.areatotal = calarea * qtys;
+                    pr.Kilogramas = kilograms * qtys;
+                    pr.qtypro = qtys;
+                    pr.Observacao = nomeTextBox.Text;
+                    tete.Precos_pro.Add(pr);
+                  //  produtoss.prexo_venda = precos;
+                    tete.SaveChanges();
+
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Problema na iclusao do produto\n" + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                return false ;
+            }
+
+            return true;
         }
         void prenchergrelha(int obra)
         {
@@ -114,6 +219,7 @@ namespace GesObras
                 row++;
             }
                       }
+        //actualizar a requizicao
         void actualizarre()
                 {
             requizicao re = tete.requizicao.Where(w => w.idrequisica == idreq).FirstOrDefault();
@@ -123,60 +229,7 @@ namespace GesObras
             tete.SaveChanges();
 
             }
-        public void destruirstok(int idproduto, int qty, double area)
-        {
-
-            try
-            {
-                //verficar se o produto esta permitido a ser controlado ou nao
-
-                var emp = tete.produtos.Where(s => s.idprodutos == idproduto).FirstOrDefault();
-
-                if (qty > 0)
-                {
-
-
-                    //se o produto estiver permitido sera retirado a aquantidade vendida
-                    var py = tete.produtos.Where(p => p.idprodutos == idproduto).FirstOrDefault();
-                    int qt =(int)py.Quatidade;
-                    py.Quatidade =qt+ qty;
-                    tete.SaveChanges();
-                }
-                //else if (qty <= 0 && area > 0)
-                //{
-
-                //    // se o capo de areas for prienchido realizada estas funcoes
-
-                //    double areas = (Double)emp.Areatotal;//buscar areatotal actual
-                //                                         //  decimal area = decimal.Parse(TextBox3.Text); ;// verficar a area requeriad
-                //    if (areas > area)
-                //    {
-                //        // decimal val = decimal.Parse("0." + TextBox3.Text);
-
-                //        decimal presai = decimal.Parse(emp.precos.ToString());
-                //        //decimal prexoto = val * presai;//obter o valor total
-                //        try
-                //        {
-
-
-                //            //  var pro = tete.produtos.Where(id => id.idprodutos == cl).FirstOrDefault();
-                //            /*
-                //             * iniciar aginastica
-                //            */
-                //            //area totao menos area introduzida=area restante
-                //            int ater = int.Parse(emp.Areatotal.ToString()) - int.Parse(area.ToString());
-
-          
-            }
-            catch(Exception ex)
-            {
-
-                MessageBox.Show("Nao foi possivel atualizar o estoke" + ex.Message);
-            }
-
-
-        }//retirar a Quantidade no stock
-
+       
         private void radButton1_Click(object sender, EventArgs e)
         {
             adicionaritemfactura();

@@ -11,7 +11,7 @@
       <Value Profile="(Default)">Data Source=.;Initial Catalog=teteenginhier;Persist Security Info=True;User ID=sa;Password=Babilonia2</Value>
     </Setting>
     <Setting Name="hoje" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)">2017-12-09</Value>
+      <Value Profile="(Default)">2021-06-07</Value>
     </Setting>
   </Settings>
 </SettingsFile>

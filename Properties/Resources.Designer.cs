@@ -73,6 +73,16 @@ namespace GesObras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap checked_checkbox_32px {
+            get {
+                object obj = ResourceManager.GetObject("checked_checkbox_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap checkmark_32px {
             get {
                 object obj = ResourceManager.GetObject("checkmark_32px", resourceCulture);
@@ -166,6 +176,16 @@ namespace GesObras.Properties {
         internal static System.Drawing.Bitmap interstate_truck_50px {
             get {
                 object obj = ResourceManager.GetObject("interstate_truck_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap math_32px {
+            get {
+                object obj = ResourceManager.GetObject("math_32px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

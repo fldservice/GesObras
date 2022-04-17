@@ -121,9 +121,6 @@
   <data name="product_75px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\product_75px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fine_print_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fine_print_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="downloads_folder_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\downloads_folder_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,6 +154,9 @@
   <data name="settings_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="used_product_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\used_product_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="search_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,16 +166,22 @@
   <data name="save_archive_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\save_archive_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="used_product_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\used_product_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="print_75px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print_75px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="interstate_truck_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\interstate_truck_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="print_75px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\print_75px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="report_card_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\report_card_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="math_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\math_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fine_print_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fine_print_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checked_checkbox_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked_checkbox_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

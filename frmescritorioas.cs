@@ -13,7 +13,7 @@ using System.IO;
 
 namespace GesObras
 {
-    public partial class frmescritorioas : Form
+    public partial class frmescritorioas : Telerik.WinControls.UI.RadForm
     {
         private teteenginhierEntities si = new teteenginhierEntities();
         public frmescritorioas()
@@ -93,6 +93,11 @@ namespace GesObras
         {
             empresaBindingSource.AddNew();
            
+        }
+
+        private void frmescritorioas_Load(object sender, EventArgs e)
+        {
+            empresaBindingSource.DataSource = si.empresa.ToList();
         }
     }
 }

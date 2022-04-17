@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
-            this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radButton1 = new Telerik.WinControls.UI.RadButton();
-            this.radTextBox1 = new Telerik.WinControls.UI.RadTextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
+            this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.radTextBox1 = new Telerik.WinControls.UI.RadTextBox();
+            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
             this.radGroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // radPanel1
@@ -54,6 +54,15 @@
             this.radPanel1.Size = new System.Drawing.Size(275, 197);
             this.radPanel1.TabIndex = 0;
             this.radPanel1.Text = "radPanel1";
+            // 
+            // radLabel1
+            // 
+            this.radLabel1.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.radLabel1.Location = new System.Drawing.Point(6, 15);
+            this.radLabel1.Name = "radLabel1";
+            this.radLabel1.Size = new System.Drawing.Size(70, 25);
+            this.radLabel1.TabIndex = 1;
+            this.radLabel1.Text = "Entradas";
             // 
             // radGroupBox1
             // 
@@ -73,19 +82,27 @@
             this.radGroupBox1.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
             this.radGroupBox1.Size = new System.Drawing.Size(271, 157);
             this.radGroupBox1.TabIndex = 0;
-            this.radGroupBox1.ThemeName = "Office2010Black";
+            this.radGroupBox1.ThemeName = "Office2010Silver";
             // 
-            // radButton1
+            // label2
             // 
-            this.radButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radButton1.Image = global::GesObras.Properties.Resources.downloads_folder_50px;
-            this.radButton1.Location = new System.Drawing.Point(94, 115);
-            this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(172, 37);
-            this.radButton1.TabIndex = 0;
-            this.radButton1.Text = "Actualizar";
-            this.radButton1.ThemeName = "Office2010Black";
-            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.label2.Location = new System.Drawing.Point(90, 18);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 19);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "label1";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.label1.Location = new System.Drawing.Point(19, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 19);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Produtos";
             // 
             // radTextBox1
             // 
@@ -98,34 +115,17 @@
             this.radTextBox1.Text = "0";
             this.radTextBox1.ThemeName = "Office2010Black";
             // 
-            // label1
+            // radButton1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.label1.Location = new System.Drawing.Point(19, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 19);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Produtos";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.label2.Location = new System.Drawing.Point(90, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 19);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label1";
-            // 
-            // radLabel1
-            // 
-            this.radLabel1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.radLabel1.Location = new System.Drawing.Point(6, 15);
-            this.radLabel1.Name = "radLabel1";
-            this.radLabel1.Size = new System.Drawing.Size(70, 25);
-            this.radLabel1.TabIndex = 1;
-            this.radLabel1.Text = "Entradas";
+            this.radButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.radButton1.Image = global::GesObras.Properties.Resources.downloads_folder_50px;
+            this.radButton1.Location = new System.Drawing.Point(94, 115);
+            this.radButton1.Name = "radButton1";
+            this.radButton1.Size = new System.Drawing.Size(172, 37);
+            this.radButton1.TabIndex = 0;
+            this.radButton1.Text = "Actualizar";
+            this.radButton1.ThemeName = "Office2010Silver";
+            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // actpendentes
             // 
@@ -133,19 +133,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(275, 197);
             this.Controls.Add(this.radPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.Name = "actpendentes";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "actpendentes";
             this.Load += new System.EventHandler(this.actpendentes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
             this.radPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).EndInit();
             this.radGroupBox1.ResumeLayout(false);
             this.radGroupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             this.ResumeLayout(false);
 
         }

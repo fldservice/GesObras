@@ -33,8 +33,8 @@
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
-            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             this.radTextBox1 = new Telerik.WinControls.UI.RadTextBox();
+            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
@@ -43,8 +43,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
             this.splitPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // radSplitContainer1
@@ -84,7 +84,7 @@
             // radLabel2
             // 
             this.radLabel2.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.radLabel2.Location = new System.Drawing.Point(224, 14);
+            this.radLabel2.Location = new System.Drawing.Point(224, 11);
             this.radLabel2.Name = "radLabel2";
             this.radLabel2.Size = new System.Drawing.Size(188, 33);
             this.radLabel2.TabIndex = 0;
@@ -116,30 +116,31 @@
             this.splitPanel2.TabStop = false;
             this.splitPanel2.Text = "splitPanel2";
             // 
-            // radButton1
-            // 
-            this.radButton1.Location = new System.Drawing.Point(311, 170);
-            this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(130, 43);
-            this.radButton1.TabIndex = 1;
-            this.radButton1.Text = "Actualizar";
-            this.radButton1.ThemeName = "Office2010Black";
-            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
-            // 
             // radTextBox1
             // 
-            this.radTextBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.radTextBox1.Location = new System.Drawing.Point(36, 31);
+            this.radTextBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTextBox1.Location = new System.Drawing.Point(36, 15);
             this.radTextBox1.Multiline = true;
             this.radTextBox1.Name = "radTextBox1";
             // 
             // 
             // 
             this.radTextBox1.RootElement.StretchVertically = true;
-            this.radTextBox1.Size = new System.Drawing.Size(376, 114);
+            this.radTextBox1.Size = new System.Drawing.Size(376, 149);
             this.radTextBox1.TabIndex = 2;
             this.radTextBox1.TabStop = false;
             this.radTextBox1.ThemeName = "Office2010Black";
+            // 
+            // radButton1
+            // 
+            this.radButton1.Image = global::GesObras.Properties.Resources.add_file_32px;
+            this.radButton1.Location = new System.Drawing.Point(311, 170);
+            this.radButton1.Name = "radButton1";
+            this.radButton1.Size = new System.Drawing.Size(130, 43);
+            this.radButton1.TabIndex = 1;
+            this.radButton1.Text = "Actualizar";
+            this.radButton1.ThemeName = "Office2010Silver";
+            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // Descregi
             // 
@@ -160,8 +161,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
             this.splitPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radTextBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             this.ResumeLayout(false);
 
         }
