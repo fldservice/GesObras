@@ -418,10 +418,6 @@
       <Project>{a6eff63f-5520-4a5d-bfc5-12760a5b564b}</Project>
       <Name>dbges</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GesHonorario\GesHonorario.csproj">
-      <Project>{e8cdb83a-d109-495f-a8c9-5f4c1d628fd3}</Project>
-      <Name>GesHonorario</Name>
-    </ProjectReference>
     <ProjectReference Include="..\gesInvent\gesInvent.csproj">
       <Project>{8223a0e4-e703-4e43-9f4b-70bd36415de5}</Project>
       <Name>gesInvent</Name>

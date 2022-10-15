@@ -499,9 +499,9 @@ namespace GesObras
 
         private void radButtonElement18_Click(object sender, EventArgs e)
         {
-            GesHonorario.Vendaprodutos vp = new GesHonorario.Vendaprodutos();
-           vp.MdiParent = this;
-            vp.Show();
+           // GesHonorario.Vendaprodutos vp = new GesHonorario.Vendaprodutos();
+           //vp.MdiParent = this;
+           // vp.Show();
             // MetroFramework.MetroMessageBox.Show(this, "BrevMente\n modulo de gestão de Vendas de produtos \n Facturacao e Recibos ", "Aguarde", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
@@ -524,9 +524,9 @@ namespace GesObras
 
         private void radButtonElement21_Click(object sender, EventArgs e)
         {
-            GesHonorario.frm_lista_clintes ft = new GesHonorario.frm_lista_clintes();
-            ft.MdiParent = this;
-            ft.Show();
+            //GesHonorario.frm_lista_clintes ft = new GesHonorario.frm_lista_clintes();
+            //ft.MdiParent = this;
+            //ft.Show();
         }
 
         private void radButtonElement22_Click(object sender, EventArgs e)

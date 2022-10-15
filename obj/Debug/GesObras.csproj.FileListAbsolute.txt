@@ -739,13 +739,11 @@ C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\EntityFramework.dll
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.dll
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.dll
-C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\GesHonorario.exe
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesInvent.exe
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesreport.exe
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Microsoft.ReportViewer.WinForms.dll
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\sisfince.exe
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\QuickStart.dll
-C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.dll
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\BarcodeLib.dll
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\DGV Printer.dll
@@ -756,8 +754,6 @@ C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Bree
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\dbges.pdb
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\dbges.dll.config
-C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\GesHonorario.pdb
-C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\GesHonorario.exe.config
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesInvent.pdb
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesInvent.exe.config
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\gesreport.pdb
@@ -770,7 +766,6 @@ C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.pdb
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.xml
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.pdb
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\ExcelDataReader.DataSet.xml
-C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\Telerik.WinControls.Scheduler.xml
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
 C:\Users\FLD\Videos\china pro\GesObras\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
