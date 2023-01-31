@@ -611,6 +611,18 @@ namespace GesObras
             g.Show();
         }
 
+        private void radButtonElement18_Click_1(object sender, EventArgs e)
+        {
+            //relatoriosSaidaMensais f = new relatoriosSaidaMensais();
+            //f.ShowDialog();
+        }
+
+        private void radButtonElement21_Click_1(object sender, EventArgs e)
+        {
+            //frm_reqBymes by = new frm_reqBymes();
+            //by.Show();
+        }
+
         //public void getItems()
         //{
         //    foreach (RadMenuItem  item in RadMenuButtonItem.it)

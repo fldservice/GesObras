@@ -83,6 +83,8 @@
             this.radMenuItem4 = new Telerik.WinControls.UI.RadMenuItem();
             this.radRibbonBar1 = new Telerik.WinControls.UI.RadRibbonBar();
             this.radMenuItem5 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radButtonElement18 = new Telerik.WinControls.UI.RadButtonElement();
+            this.radButtonElement21 = new Telerik.WinControls.UI.RadButtonElement();
             this.statusStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radRibbonBar1)).BeginInit();
@@ -279,7 +281,9 @@
             this.radButtonElement7,
             this.radButtonElement10,
             this.radButtonElement11,
-            this.radButtonElement22});
+            this.radButtonElement22,
+            this.radButtonElement18,
+            this.radButtonElement21});
             this.radRibbonBarGroup5.Margin = new System.Windows.Forms.Padding(0);
             this.radRibbonBarGroup5.MaxSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup5.MinSize = new System.Drawing.Size(0, 0);
@@ -731,6 +735,30 @@
             this.radMenuItem5.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             this.radMenuItem5.Click += new System.EventHandler(this.radMenuItem5_Click);
             // 
+            // radButtonElement18
+            // 
+            this.radButtonElement18.AccessibleDescription = "Saida Mensal";
+            this.radButtonElement18.AccessibleName = "Saida Mensal";
+            this.radButtonElement18.Class = "RibbonBarButtonElement";
+            this.radButtonElement18.Image = global::GesObras.Properties.Resources.checkout_50px_1;
+            this.radButtonElement18.Name = "radButtonElement18";
+            this.radButtonElement18.Text = "Saida Mensal";
+            this.radButtonElement18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radButtonElement18.Visibility = Telerik.WinControls.ElementVisibility.Visible;
+            this.radButtonElement18.Click += new System.EventHandler(this.radButtonElement18_Click_1);
+            // 
+            // radButtonElement21
+            // 
+            this.radButtonElement21.AccessibleDescription = "Requi Mensal";
+            this.radButtonElement21.AccessibleName = "Requi Mensal";
+            this.radButtonElement21.Class = "RibbonBarButtonElement";
+            this.radButtonElement21.Image = global::GesObras.Properties.Resources.used_product_50px;
+            this.radButtonElement21.Name = "radButtonElement21";
+            this.radButtonElement21.Text = "Requi Mensal";
+            this.radButtonElement21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radButtonElement21.Visibility = Telerik.WinControls.ElementVisibility.Visible;
+            this.radButtonElement21.Click += new System.EventHandler(this.radButtonElement21_Click_1);
+            // 
             // MDIParent1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -811,6 +839,8 @@
         private Telerik.WinControls.UI.RadMenuItem radMenuItem4;
         private Telerik.WinControls.UI.RadRibbonBar radRibbonBar1;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem5;
+        private Telerik.WinControls.UI.RadButtonElement radButtonElement18;
+        private Telerik.WinControls.UI.RadButtonElement radButtonElement21;
     }
 }
 
