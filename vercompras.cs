@@ -22,6 +22,9 @@ namespace GesObras
 
         private void vercompras_Load(object sender, EventArgs e)
         {
+            radDateTimePicker1.Value = DateTime.Now;
+            radDateTimePicker2.Value = DateTime.Now;
+            
             empresaBindingSource.DataSource = te.empresa.ToList();
             requizicaoBindingSource.DataSource = te.requizicao.ToList().GroupBy(r=>r.datarecebimento ) ;
             viewrequizicaoBindingSource.DataSource = te.viewrequizicao.Where(f=>f.estados.Equals("Recebido")).ToList();

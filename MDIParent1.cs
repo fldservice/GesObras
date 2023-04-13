@@ -407,28 +407,39 @@ namespace GesObras
         {
             try
             {
-                Process[] processList = Process.GetProcessesByName("calc");
-                if (processList.Length >= 1)
-                {
-                    // process already running, kill it and start again
-                    foreach (Process item in processList)
-                    {
-                        item.Kill();
-                    }
-                    Process.Start("calc.exe");
-                }
-                else
-                {
-                    Process.Start("calc.exe");
-                }
-
-                //  Telerik.WinControls.NativeMethods.SetParent(p.MainWindowHandle, this.Handle);
+                gesInvent.lisObras ca = new gesInvent.lisObras();
+                ca.MdiParent = this;
+                ca.Show();
             }
             catch (Exception)
             {
 
-                return;
+
             }
+            //try
+            //{
+            //    Process[] processList = Process.GetProcessesByName("calc");
+            //    if (processList.Length >= 1)
+            //    {
+            //        // process already running, kill it and start again
+            //        foreach (Process item in processList)
+            //        {
+            //            item.Kill();
+            //        }
+            //        Process.Start("calc.exe");
+            //    }
+            //    else
+            //    {
+            //        Process.Start("calc.exe");
+            //    }
+
+            //    //  Telerik.WinControls.NativeMethods.SetParent(p.MainWindowHandle, this.Handle);
+            //}
+            //catch (Exception)
+            //{
+
+            //    return;
+            //}
 
         }
 

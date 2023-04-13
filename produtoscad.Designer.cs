@@ -98,12 +98,12 @@
             this.areatotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Kilogramas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Observacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.actualizarQtyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.precosproBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.produtosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.telerikMetroTheme1 = new Telerik.WinControls.Themes.TelerikMetroTheme();
             this.office2010SilverTheme1 = new Telerik.WinControls.Themes.Office2010SilverTheme();
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.actualizarQtyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             codprodutoLabel = new System.Windows.Forms.Label();
             idcategoriaLabel = new System.Windows.Forms.Label();
             idtamanhosLabel = new System.Windows.Forms.Label();
@@ -154,9 +154,9 @@
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.contextMenuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.precosproBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtosBindingSource)).BeginInit();
-            this.contextMenuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -855,7 +855,6 @@
             this.areatotal,
             this.Kilogramas,
             this.Observacao});
-            this.dataGridView1.ContextMenuStrip = this.contextMenuStrip2;
             this.dataGridView1.DataSource = this.precosproBindingSource;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
@@ -909,14 +908,6 @@
             this.Observacao.Name = "Observacao";
             this.Observacao.ReadOnly = true;
             // 
-            // precosproBindingSource
-            // 
-            this.precosproBindingSource.DataSource = typeof(dbges.Precos_pro);
-            // 
-            // produtosBindingSource
-            // 
-            this.produtosBindingSource.DataSource = typeof(dbges.produtos);
-            // 
             // contextMenuStrip2
             // 
             this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -928,9 +919,17 @@
             // 
             this.actualizarQtyToolStripMenuItem.Image = global::GesObras.Properties.Resources.add_file_32px;
             this.actualizarQtyToolStripMenuItem.Name = "actualizarQtyToolStripMenuItem";
-            this.actualizarQtyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.actualizarQtyToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.actualizarQtyToolStripMenuItem.Text = "actualizar qty";
             this.actualizarQtyToolStripMenuItem.Click += new System.EventHandler(this.actualizarQtyToolStripMenuItem_Click);
+            // 
+            // precosproBindingSource
+            // 
+            this.precosproBindingSource.DataSource = typeof(dbges.Precos_pro);
+            // 
+            // produtosBindingSource
+            // 
+            this.produtosBindingSource.DataSource = typeof(dbges.produtos);
             // 
             // produtoscad
             // 
@@ -993,9 +992,9 @@
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.contextMenuStrip2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.precosproBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtosBindingSource)).EndInit();
-            this.contextMenuStrip2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 

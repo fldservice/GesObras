@@ -185,7 +185,7 @@ MessageBox.Show("Produto nao registrado ", "Novo Produto", MessageBoxButtons.OK,
             try
             {
                 double total = calcular();
-                double iva = total * 0.17;
+                double iva = total * 0.16;// apsu de 17 para 16
                 double totaliva = total + iva;
                 re = new requizicao();
                 var contar = tete.requizicao.Count();

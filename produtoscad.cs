@@ -247,16 +247,14 @@ namespace GesObras
                 if (idprecoss > 0)
                 {
 
-                    //DateTime g = Properties.Settings.Default.hoje;
-                    //if (g > DateTime.Now)
-                    //{
-                        gesInvent.updatepreco update = new gesInvent.updatepreco();
-                        update.idpreco = idprecoss;
-                        update.Show();
-                    //}
-                    
-                  
-                        }
+
+                    gesInvent.updatepreco update = new gesInvent.updatepreco();
+                    update.idpreco = idprecoss;
+                    update.Show();
+
+
+
+                }
             }
             catch (Exception ex)
             {

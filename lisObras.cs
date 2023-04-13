@@ -202,10 +202,10 @@ estado= radGridView1.CurrentRow.Cells[5].Value.ToString();
             try
             {
              //   var detalhe = tete.detalhesdobra.Where(v => v.iddetalhessa == idpros).FirstOrDefault();
-                frm_updaeDetalhes pd = new frm_updaeDetalhes();
-                pd.iddetalhesobra = idpros;
-                pd.ShowDialog();
-                viewprodDetalhesBindingSource.DataSource = tete.viewprodDetalhes.Where(t => t.idobra == idobra).ToList();
+               // frm_updaeDetalhes pd = new frm_updaeDetalhes();
+               // pd.iddetalhesobra = idpros;
+               // pd.ShowDialog();
+               // viewprodDetalhesBindingSource.DataSource = tete.viewprodDetalhes.Where(t => t.idobra == idobra).ToList();
 
             }
             catch (Exception)

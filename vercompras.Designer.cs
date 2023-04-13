@@ -367,13 +367,13 @@
             this.radDateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.radDateTimePicker2.MinDate = new System.DateTime(((long)(0)));
             this.radDateTimePicker2.Name = "radDateTimePicker2";
-            this.radDateTimePicker2.NullableValue = new System.DateTime(2017, 10, 8, 7, 48, 50, 520);
+            this.radDateTimePicker2.NullableValue = new System.DateTime(2023, 4, 10, 0, 0, 0, 0);
             this.radDateTimePicker2.NullDate = new System.DateTime(((long)(0)));
             this.radDateTimePicker2.Size = new System.Drawing.Size(169, 27);
             this.radDateTimePicker2.TabIndex = 0;
             this.radDateTimePicker2.TabStop = false;
-            this.radDateTimePicker2.Text = "domingo, 8 de outubro de 2017";
-            this.radDateTimePicker2.Value = new System.DateTime(2017, 10, 8, 7, 48, 50, 520);
+            this.radDateTimePicker2.Text = "segunda-feira, 10 de abril de 2023";
+            this.radDateTimePicker2.Value = new System.DateTime(2023, 4, 10, 0, 0, 0, 0);
             this.radDateTimePicker2.ValueChanged += new System.EventHandler(this.radDateTimePicker2_ValueChanged);
             // 
             // radDateTimePicker1
@@ -384,13 +384,13 @@
             this.radDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.radDateTimePicker1.MinDate = new System.DateTime(((long)(0)));
             this.radDateTimePicker1.Name = "radDateTimePicker1";
-            this.radDateTimePicker1.NullableValue = new System.DateTime(2017, 10, 8, 7, 48, 50, 520);
+            this.radDateTimePicker1.NullableValue = new System.DateTime(2023, 4, 10, 0, 0, 0, 0);
             this.radDateTimePicker1.NullDate = new System.DateTime(((long)(0)));
             this.radDateTimePicker1.Size = new System.Drawing.Size(169, 27);
             this.radDateTimePicker1.TabIndex = 0;
             this.radDateTimePicker1.TabStop = false;
-            this.radDateTimePicker1.Text = "domingo, 8 de outubro de 2017";
-            this.radDateTimePicker1.Value = new System.DateTime(2017, 10, 8, 7, 48, 50, 520);
+            this.radDateTimePicker1.Text = "segunda-feira, 10 de abril de 2023";
+            this.radDateTimePicker1.Value = new System.DateTime(2023, 4, 10, 0, 0, 0, 0);
             this.radDateTimePicker1.ValueChanged += new System.EventHandler(this.radDateTimePicker1_ValueChanged);
             // 
             // splitPanel6

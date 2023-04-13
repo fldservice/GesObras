@@ -56,6 +56,8 @@
             this.radButtonElement10 = new Telerik.WinControls.UI.RadButtonElement();
             this.radButtonElement11 = new Telerik.WinControls.UI.RadButtonElement();
             this.radButtonElement22 = new Telerik.WinControls.UI.RadButtonElement();
+            this.radButtonElement18 = new Telerik.WinControls.UI.RadButtonElement();
+            this.radButtonElement21 = new Telerik.WinControls.UI.RadButtonElement();
             this.radRibbonBarGroup6 = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radButtonElement9 = new Telerik.WinControls.UI.RadButtonElement();
             this.radRibbonBarGroup7 = new Telerik.WinControls.UI.RadRibbonBarGroup();
@@ -83,8 +85,7 @@
             this.radMenuItem4 = new Telerik.WinControls.UI.RadMenuItem();
             this.radRibbonBar1 = new Telerik.WinControls.UI.RadRibbonBar();
             this.radMenuItem5 = new Telerik.WinControls.UI.RadMenuItem();
-            this.radButtonElement18 = new Telerik.WinControls.UI.RadButtonElement();
-            this.radButtonElement21 = new Telerik.WinControls.UI.RadButtonElement();
+            this.radButtonElement26 = new Telerik.WinControls.UI.RadButtonElement();
             this.statusStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radRibbonBar1)).BeginInit();
@@ -99,7 +100,7 @@
             this.txtinfo});
             this.statusStrip.Location = new System.Drawing.Point(0, 524);
             this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Size = new System.Drawing.Size(1021, 22);
+            this.statusStrip.Size = new System.Drawing.Size(1125, 22);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -131,7 +132,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Location = new System.Drawing.Point(843, 423);
+            this.pictureBox1.Location = new System.Drawing.Point(947, 423);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(166, 88);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -348,7 +349,7 @@
             this.radButtonElement11.Name = "radButtonElement11";
             this.radButtonElement11.Text = "Fornec";
             this.radButtonElement11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.radButtonElement11.Visibility = Telerik.WinControls.ElementVisibility.Visible;
+            this.radButtonElement11.Visibility = Telerik.WinControls.ElementVisibility.Hidden;
             this.radButtonElement11.Click += new System.EventHandler(this.radButtonElement11_Click);
             // 
             // radButtonElement22
@@ -362,6 +363,30 @@
             this.radButtonElement22.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.radButtonElement22.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             this.radButtonElement22.Click += new System.EventHandler(this.radButtonElement22_Click);
+            // 
+            // radButtonElement18
+            // 
+            this.radButtonElement18.AccessibleDescription = "Saida Mensal";
+            this.radButtonElement18.AccessibleName = "Saida Mensal";
+            this.radButtonElement18.Class = "RibbonBarButtonElement";
+            this.radButtonElement18.Image = global::GesObras.Properties.Resources.checkout_50px_1;
+            this.radButtonElement18.Name = "radButtonElement18";
+            this.radButtonElement18.Text = "Saida Mensal";
+            this.radButtonElement18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radButtonElement18.Visibility = Telerik.WinControls.ElementVisibility.Hidden;
+            this.radButtonElement18.Click += new System.EventHandler(this.radButtonElement18_Click_1);
+            // 
+            // radButtonElement21
+            // 
+            this.radButtonElement21.AccessibleDescription = "Requi Mensal";
+            this.radButtonElement21.AccessibleName = "Requi Mensal";
+            this.radButtonElement21.Class = "RibbonBarButtonElement";
+            this.radButtonElement21.Image = global::GesObras.Properties.Resources.used_product_50px;
+            this.radButtonElement21.Name = "radButtonElement21";
+            this.radButtonElement21.Text = "Requi Mensal";
+            this.radButtonElement21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radButtonElement21.Visibility = Telerik.WinControls.ElementVisibility.Hidden;
+            this.radButtonElement21.Click += new System.EventHandler(this.radButtonElement21_Click_1);
             // 
             // radRibbonBarGroup6
             // 
@@ -397,7 +422,7 @@
             this.radRibbonBarGroup7.MaxSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup7.MinSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup7.Name = "radRibbonBarGroup7";
-            this.radRibbonBarGroup7.Text = "Calculadora";
+            this.radRibbonBarGroup7.Text = "Armazem";
             this.radRibbonBarGroup7.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             // 
             // radButtonElement12
@@ -405,7 +430,7 @@
             this.radButtonElement12.AccessibleDescription = "radButtonElement12";
             this.radButtonElement12.AccessibleName = "radButtonElement12";
             this.radButtonElement12.Class = "RibbonBarButtonElement";
-            this.radButtonElement12.Image = ((System.Drawing.Image)(resources.GetObject("radButtonElement12.Image")));
+            this.radButtonElement12.Image = global::GesObras.Properties.Resources.gears_50px;
             this.radButtonElement12.Name = "radButtonElement12";
             this.radButtonElement12.Text = "";
             this.radButtonElement12.Visibility = Telerik.WinControls.ElementVisibility.Visible;
@@ -427,7 +452,7 @@
             this.radRibbonBarGroup13});
             this.ribbonTab2.Name = "ribbonTab2";
             this.ribbonTab2.Text = "Inventario";
-            this.ribbonTab2.Visibility = Telerik.WinControls.ElementVisibility.Visible;
+            this.ribbonTab2.Visibility = Telerik.WinControls.ElementVisibility.Hidden;
             // 
             // radRibbonBarGroup8
             // 
@@ -505,7 +530,7 @@
             this.radRibbonBarGroup10.MinSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup10.Name = "radRibbonBarGroup10";
             this.radRibbonBarGroup10.Text = "Api";
-            this.radRibbonBarGroup10.Visibility = Telerik.WinControls.ElementVisibility.Visible;
+            this.radRibbonBarGroup10.Visibility = Telerik.WinControls.ElementVisibility.Hidden;
             // 
             // radButtonElement15
             // 
@@ -543,7 +568,7 @@
             this.radRibbonBarGroup11.MinSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup11.Name = "radRibbonBarGroup11";
             this.radRibbonBarGroup11.Text = "Escritorio";
-            this.radRibbonBarGroup11.Visibility = Telerik.WinControls.ElementVisibility.Visible;
+            this.radRibbonBarGroup11.Visibility = Telerik.WinControls.ElementVisibility.Hidden;
             // 
             // radButtonElement19
             // 
@@ -569,7 +594,7 @@
             this.radRibbonBarGroup12.MinSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup12.Name = "radRibbonBarGroup12";
             this.radRibbonBarGroup12.Text = "Despesas";
-            this.radRibbonBarGroup12.Visibility = Telerik.WinControls.ElementVisibility.Visible;
+            this.radRibbonBarGroup12.Visibility = Telerik.WinControls.ElementVisibility.Hidden;
             // 
             // radButtonElement20
             // 
@@ -607,7 +632,7 @@
             this.radRibbonBarGroup13.MinSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup13.Name = "radRibbonBarGroup13";
             this.radRibbonBarGroup13.Text = "Report Despesas";
-            this.radRibbonBarGroup13.Visibility = Telerik.WinControls.ElementVisibility.Visible;
+            this.radRibbonBarGroup13.Visibility = Telerik.WinControls.ElementVisibility.Hidden;
             // 
             // radButtonElement24
             // 
@@ -711,7 +736,7 @@
             this.radRibbonBar1.OptionsButton.ButtonElement.AccessibleDescription = "Options";
             this.radRibbonBar1.OptionsButton.ButtonElement.AccessibleName = "Options";
             this.radRibbonBar1.OptionsButton.Text = "Options";
-            this.radRibbonBar1.Size = new System.Drawing.Size(1021, 160);
+            this.radRibbonBar1.Size = new System.Drawing.Size(1125, 160);
             this.radRibbonBar1.StartButtonImage = null;
             this.radRibbonBar1.StartMenuItems.AddRange(new Telerik.WinControls.RadItem[] {
             this.radMenuItem1,
@@ -735,29 +760,16 @@
             this.radMenuItem5.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             this.radMenuItem5.Click += new System.EventHandler(this.radMenuItem5_Click);
             // 
-            // radButtonElement18
+            // radButtonElement26
             // 
-            this.radButtonElement18.AccessibleDescription = "Saida Mensal";
-            this.radButtonElement18.AccessibleName = "Saida Mensal";
-            this.radButtonElement18.Class = "RibbonBarButtonElement";
-            this.radButtonElement18.Image = global::GesObras.Properties.Resources.checkout_50px_1;
-            this.radButtonElement18.Name = "radButtonElement18";
-            this.radButtonElement18.Text = "Saida Mensal";
-            this.radButtonElement18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.radButtonElement18.Visibility = Telerik.WinControls.ElementVisibility.Visible;
-            this.radButtonElement18.Click += new System.EventHandler(this.radButtonElement18_Click_1);
-            // 
-            // radButtonElement21
-            // 
-            this.radButtonElement21.AccessibleDescription = "Requi Mensal";
-            this.radButtonElement21.AccessibleName = "Requi Mensal";
-            this.radButtonElement21.Class = "RibbonBarButtonElement";
-            this.radButtonElement21.Image = global::GesObras.Properties.Resources.used_product_50px;
-            this.radButtonElement21.Name = "radButtonElement21";
-            this.radButtonElement21.Text = "Requi Mensal";
-            this.radButtonElement21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.radButtonElement21.Visibility = Telerik.WinControls.ElementVisibility.Visible;
-            this.radButtonElement21.Click += new System.EventHandler(this.radButtonElement21_Click_1);
+            this.radButtonElement26.AccessibleDescription = "radButtonElement14";
+            this.radButtonElement26.AccessibleName = "radButtonElement14";
+            this.radButtonElement26.Class = "RibbonBarButtonElement";
+            this.radButtonElement26.Image = ((System.Drawing.Image)(resources.GetObject("radButtonElement26.Image")));
+            this.radButtonElement26.Name = "radButtonElement26";
+            this.radButtonElement26.Text = "Armazem";
+            this.radButtonElement26.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radButtonElement26.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             // 
             // MDIParent1
             // 
@@ -765,7 +777,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1021, 546);
+            this.ClientSize = new System.Drawing.Size(1125, 546);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.radRibbonBar1);
             this.Controls.Add(this.statusStrip);
@@ -841,6 +853,7 @@
         private Telerik.WinControls.UI.RadMenuItem radMenuItem5;
         private Telerik.WinControls.UI.RadButtonElement radButtonElement18;
         private Telerik.WinControls.UI.RadButtonElement radButtonElement21;
+        private Telerik.WinControls.UI.RadButtonElement radButtonElement26;
     }
 }
 

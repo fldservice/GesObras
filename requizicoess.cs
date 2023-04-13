@@ -28,6 +28,7 @@ namespace GesObras
 
         private void requizicoess_Load(object sender, EventArgs e)
         {
+            radDateTimePicker1.Value = DateTime.Now;
             viewreqfornBindingSource.DataSource = t.requizicao.ToList();
             radDropDownList1.SelectedIndex = 0;
         }
